@@ -2,20 +2,11 @@ html, body {
     height: 100%;
 }
 
-#logo_word {
-    background-image: url('../images/chombox_word_w_50.png');
-    height: 50px;
-    width: 350px;
-    background-repeat: no-repeat;
-
-}
-
 .navbar.navbar-fixed-top {
     position: relative;
     margin: 0;
     border: 0;
-    min-height: 80px;
-    /*background-color: #222;*/
+    height: 70px;
     background-color: #de4839;
     box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.2);
 }
@@ -26,23 +17,12 @@ html, body {
         transition: background 0.2s ease-in-out, padding 0.3s ease-in-out;
     }
 }
-.navbar.navbar-fixed-top .navbar-brand {
-    color: #fff;
-    font-size: 28px;
-    font-weight: 700;
-    text-transform: uppercase;
-    height: 60px;
-    line-height: 60px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    letter-spacing: 0.1em;
-}
 
 #logo{
     background:url("../images/chombox_hori_w2.png");
     height: 30px;
     width: 290px;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 .navbar.navbar-fixed-top .navbar-brand:hover {
     color: #fff;
@@ -58,16 +38,32 @@ html, body {
 }
 @media (min-width: 992px) {
     .navbar.navbar-fixed-top .navbar-nav > li > a {
-        height: 60px;
-        line-height: 60px;
+        /*min-height: 70px;*/
+        line-height: 70px;
         padding-top: 0px;
         padding-bottom: 0px;
     }
 }
+
 .navbar.navbar-fixed-top .navbar-nav > li > a:hover {
-    color: #1abc9c;
-    background-color: #222;
+    color: #de4839;
+    background-color: #fff;
 }
+
+.navbar.navbar-fixed-top .navbar-nav > li.nav-item.nav-item-cta.last a.btn-cta-secondary {
+    border: 1px solid #00aeef;
+    background: white;
+    color: #de4839;
+    padding: 8px 10px;
+    /*margin-top: 5px;*/
+}
+
+.navbar.navbar-fixed-top .navbar-nav > li.nav-item.nav-item-cta.last a.btn-cta-secondary:hover {
+    border: 1px solid #de4839;
+    background: #de4839;
+    color: white;
+}
+
 .navbar.navbar-fixed-top .navbar-nav > li > a > i.fa-angle-down {
     padding-left: 2px;
 }
@@ -172,13 +168,13 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
-/*@media (min-width: 1280px) {*/
+@media (min-width: 667px) {
     #intro {
         height: 100%;
         padding: 0;
         background-attachment: fixed;
     }
-/*}*/
+}
 /*#intro:before {*/
 /*position: absolute;*/
 /*content: " ";*/
