@@ -10,7 +10,6 @@ html, body {
 
 }
 
-
 .navbar.navbar-fixed-top {
     position: relative;
     margin: 0;
@@ -173,13 +172,13 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
-@media (min-width: 1280px) {
+/*@media (min-width: 1280px) {*/
     #intro {
         height: 100%;
         padding: 0;
         background-attachment: fixed;
     }
-}
+/*}*/
 /*#intro:before {*/
 /*position: absolute;*/
 /*content: " ";*/
