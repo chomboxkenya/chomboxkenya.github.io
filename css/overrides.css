@@ -302,7 +302,7 @@ body {
 
 @media (max-width: 768px) {
     #intro {
-        background: url("../images/freightertop_667.jpg") no-repeat bottom center;
+        background: url("../images/freightertop_768.jpg") no-repeat bottom center;
         height: 100%;
         padding: 0;
         background-attachment: fixed;
@@ -345,7 +345,7 @@ body {
     }
 }
 #intro .intro-body .page-scroll {
-    margin-top: 30px;
+    margin-top: 135px;
 }
 /*@media (min-width: 768px) {*/
     /*#intro .intro-body .page-scroll {*/

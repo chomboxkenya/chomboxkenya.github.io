@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27bf50a2-a916-42d7-9982-f0e5d0d95b59" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/overrides.css" afterPath="$PROJECT_DIR$/css/overrides.css" />
     </list>
     <ignored path="chomboxhealth.iws" />
@@ -37,8 +36,8 @@
       <file leaf-file-name="overrides.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/overrides.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3778802">
-              <caret line="300" column="0" selection-start-line="298" selection-start-column="0" selection-end-line="300" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.83870965">
+              <caret line="347" column="19" selection-start-line="347" selection-start-column="19" selection-end-line="347" selection-end-column="19" />
               <folding>
                 <element signature="e#4504#5835#2" expanded="true" />
               </folding>
@@ -662,8 +661,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/overrides.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3778802">
-          <caret line="300" column="0" selection-start-line="298" selection-start-column="0" selection-end-line="300" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.83870965">
+          <caret line="347" column="19" selection-start-line="347" selection-start-column="19" selection-end-line="347" selection-end-column="19" />
           <folding>
             <element signature="e#4504#5835#2" expanded="true" />
           </folding>
