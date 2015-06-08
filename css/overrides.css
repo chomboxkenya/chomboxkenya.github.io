@@ -212,7 +212,7 @@ body {
     position: relative;
     display: table-cell;
     /*vertical-align: middle;*/
-    margin-top: 30px;
+    /*margin-top: 30px;*/
     /*padding-bottom: 10px;*/
 }
 
@@ -309,31 +309,31 @@ body {
         /*background-attachment: fixed;*/
     }
 
-    #intro .intro-body {
-        padding-top: 0;
-        padding-bottom: 0;
-        margin-top: 20px;
-    }
+    /*#intro .intro-body {*/
+        /*/!*padding-top: 0;*!/*/
+        /*/!*padding-bottom: 0;*!/*/
+        /*/!*margin-top: 20px;*!/*/
+    /*}*/
 
-    #intro .intro-body .intro-text {
-        margin-top: 0;
-    }
+    /*#intro .intro-body .intro-text {*/
+        /*margin-top: 0;*/
+    /*}*/
 
-    .logo {
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
+    /*.logo {*/
+        /*margin-top: 5px;*/
+        /*margin-bottom: 5px;*/
+    /*}*/
 
     #intro .intro-body .logo > h1 {
         font-size: 40px;
-        margin-top: 0;
-        margin-bottom: 0;
+        /*margin-top: 0;*/
+        /*margin-bottom: 0;*/
     }
 
     #intro .intro-body .intro-text h2 {
         font-size: 28px;
-        margin-top: 0;
-        margin-bottom: 0;
+        /*margin-top: 0;*/
+        /*margin-bottom: 0;*/
     }
 
     #intro .intro-body .intro-text p.lead {
@@ -342,9 +342,9 @@ body {
         padding-right: 30px;
     }
 
-    #intro .intro-body .page-scroll {
-        margin-top: 135px;
-    }
+    /*#intro .intro-body .page-scroll {*/
+        /*margin-top: 135px;*/
+    /*}*/
 }
 
 
