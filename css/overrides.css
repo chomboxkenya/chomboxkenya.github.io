@@ -300,10 +300,10 @@ body {
 /*and (orientation: portrait) {*/
 
 
-@media (max-width: 767px)
-and (orientation: portrait) {
+@media (max-width: 767px) {
+/*and (orientation: portrait) {*/
     #intro {
-        background: url("../images/freightertop2_767.jpg") no-repeat bottom center;
+        background: url("../images/freightertop2_767.jpg") no-repeat center;
         /*height: 100%;*/
         /*padding: 0;*/
         /*background-attachment: fixed;*/
