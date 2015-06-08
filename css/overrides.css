@@ -2,6 +2,31 @@ html, body {
     height: 100%;
 }
 
+@font-face {
+    font-family: proximanova;
+    src: url(/fonts/proximanova-regular-webfont.woff);
+}
+
+@font-face {
+    font-family: proximanova-light;
+    src: url(/fonts/proximanova-light-webfont.woff);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: proximanova-semibold;
+    src: url(/fonts/proximanova-semibold-webfont.woff);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: proximanova-bold;
+    src: url(/fonts/proximanova-bold-webfont.woff);
+    font-weight: 300;
+}
+
+/* ====== NavBar ====== */
+
 .navbar.navbar-fixed-top {
     position: relative;
     margin: 0;
@@ -51,11 +76,10 @@ html, body {
 }
 
 .navbar.navbar-fixed-top .navbar-nav > li.nav-item.nav-item-cta.last a.btn-cta-secondary {
-    border: 1px solid #00aeef;
-    background: white;
+    border: 1px solid #fff;
+    background: #fff;
     color: #de4839;
-    padding: 8px 10px;
-    /*margin-top: 5px;*/
+    margin-top: 5px;
 }
 
 .navbar.navbar-fixed-top .navbar-nav > li.nav-item.nav-item-cta.last a.btn-cta-secondary:hover {
@@ -162,7 +186,7 @@ body {
     width: 100%;
     /*height: auto;*/
     /*color: #fff;*/
-    background: url("../images/freighterfront_14003.jpg") no-repeat top center;
+    background: url("../images/freightertop_1400.jpg") no-repeat top center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -175,13 +199,6 @@ body {
         background-attachment: fixed;
     }
 }
-/*#intro:before {*/
-/*position: absolute;*/
-/*content: " ";*/
-/*width: 100%;*/
-/*height: 100%;*/
-/*background: rgba(0, 0, 0, 0.8);*/
-/*}*/
 
 #intro .intro-body {
     position: relative;
@@ -189,4 +206,132 @@ body {
     /*vertical-align: middle;*/
     padding-top: 70px;
     padding-bottom: 70px;
+}
+@media (min-width: 1280px) {
+    #intro .intro-body {
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+}
+
+#intro .intro-text {
+    vertical-align: middle;
+}
+
+.logo {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#intro .intro-body .logo > h1 {
+    /*display: block;*/
+    /*width: 110px;*/
+    /*height: 110px;*/
+    /*line-height: 110px;*/
+    color: rgba(222, 72, 57, 0.8);
+    font-family: 'proximanova-light', sans-serif;
+    font-size: 80px;
+    /*font-weight: 700;*/
+    /*text-align: center;*/
+    /*border: 2px solid rgba(255, 255, 255, 0.8);*/
+    /*border-top-right-radius: 10px;*/
+    /*border-bottom-left-radius: 10px;*/
+    /*margin: auto;*/
+}
+#intro .intro-body .intro-text {
+    margin-top: 40px;
+}
+#intro .intro-body .intro-text h2 {
+    color: #fff;
+    font-size: 50px;
+    /*font-weight: 300;*/
+    font-family: 'proximanova-light', sans-serif;
+}
+@media (min-width: 768px) {
+    #intro .intro-body .intro-text h2 {
+        font-size: 55px;
+    }
+}
+#intro .intro-body .intro-text p.lead {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'proximanova', sans-serif;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+@media (min-width: 768px) {
+    #intro .intro-body .intro-text p.lead {
+        font-size: 22px;
+    }
+}
+#intro .intro-body .page-scroll {
+    margin-top: 30px;
+}
+@media (min-width: 768px) {
+    #intro .intro-body .page-scroll {
+        margin-top: 50px;
+    }
+}
+#intro .intro-body .page-scroll a.btn {
+    font-family: 'Raleway', sans-serif;
+}
+/*@media (min-width: 768px) {*/
+    /*#intro .intro-body .page-scroll a.btn {*/
+        /*padding: 20px 25px;*/
+        /*font-size: 22px;*/
+    /*}*/
+/*}*/
+
+#intro .intro-body .page-scroll .btn-cta-primary {
+    background: #de4839;
+    border: 2px solid #de4839;
+    color: #fff;
+    /*padding: 5px 20px;*/
+}
+#intro .intro-body .page-scroll .btn-cta-primary:hover {
+    background: #fff;
+    border: 2px solid #00aeef;
+    color: #de4839;
+}
+
+/* Word Rotate */
+.word-rotate {
+    visibility: hidden;
+    width: 100px;
+    height: 0px;
+    margin-bottom: -7px;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+.word-rotate.active {
+    visibility: visible;
+    width: auto;
+}
+
+.word-rotate .word-rotate-items {
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+.word-rotate .word-rotate-items span {
+    display: block;
+    white-space: nowrap;
+}
+
+/* Word Rotate - Titles */
+h1 .word-rotate {
+    margin-bottom: -12px;
+}
+
+h2 .word-rotate {
+    margin-bottom: -12px;
+}
+
+h2.word-rotator-title {
+    line-height: 54px;
 }
