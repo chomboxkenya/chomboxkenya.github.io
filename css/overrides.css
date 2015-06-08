@@ -222,12 +222,13 @@ and (min-device-width: 375px)
 and (max-device-width: 667px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait) {
-    #intro .intro-body {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
+    /*#intro .intro-body {*/
+        /*padding-top: 10px;*/
+        /*padding-bottom: 10px;*/
+    /*}*/
     #intro .intro-body .logo > h1 {
         font-size: 20px;
+        color: black;
     }
     #intro .intro-body .intro-text {
         margin-top: 10px;
