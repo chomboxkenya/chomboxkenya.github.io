@@ -294,15 +294,15 @@ body {
 
 /* Portrait */
 @media only screen
-and (min-width: 375px)
-and (max-width: 667px)
-and (-webkit-min-device-pixel-ratio: 2) {
-/*and (orientation: portrait) {*/
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
 
 
 /*@media (max-width: 768px) {*/
     #intro {
-        background: url("../images/freightertop_668.jpg") no-repeat bottom center;
+        background: url("../images/freightertop_667.jpg") no-repeat bottom center;
         height: 100%;
         padding: 0;
         background-attachment: fixed;
