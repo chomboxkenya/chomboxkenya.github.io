@@ -291,14 +291,30 @@ body {
     padding-left: 150px;
     padding-right: 150px;
 }
-@media (max-width: 768px) {
+
+/* Portrait */
+@media only screen
+and (min-width: 375px)
+and (max-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2) {
+/*and (orientation: portrait) {*/
+
+
+/*@media (max-width: 768px) {*/
     #intro {
-        background: url("../images/freightertop_768.jpg") no-repeat top center;
+        background: url("../images/freightertop_668.jpg") no-repeat bottom center;
+        height: 100%;
+        padding: 0;
+        background-attachment: fixed;
     }
 
     #intro .intro-body {
         padding-top: 0;
         padding-bottom: 0;
+    }
+
+    #intro .intro-body {
+        margin-top: 20px;
     }
 
     #intro .intro-body .intro-text {
@@ -323,7 +339,7 @@ body {
     }
 
     #intro .intro-body .intro-text p.lead {
-        font-size: 12px;
+        font-size: 18px;
         padding-left: 30px;
         padding-right: 30px;
     }
