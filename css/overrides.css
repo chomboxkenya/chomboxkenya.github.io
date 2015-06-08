@@ -292,6 +292,10 @@ body {
     padding-right: 150px;
 }
 @media (max-width: 768px) {
+    #intro {
+        background: url("../images/freightertop_768.jpg") no-repeat top center;
+    }
+
     #intro .intro-body {
         padding-top: 0;
         padding-bottom: 0;
