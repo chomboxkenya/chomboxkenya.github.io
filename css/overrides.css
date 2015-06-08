@@ -225,8 +225,21 @@ body {
             padding-bottom: 10px;
         }
         #intro .intro-body .logo > h1 {
-            font-size: 30px;
+            font-size: 20px;
         }
+        #intro .intro-body .intro-text {
+            margin-top: 10px;
+        }
+        #intro .intro-body .intro-text h2 {
+            font-size: 15px;
+        }
+        #intro .intro-body .intro-text p.lead {
+            font-size: 12px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+
 }
 
 #intro .intro-text {
@@ -249,7 +262,6 @@ body {
 #intro .intro-body .intro-text h2 {
     color: #fff;
     font-size: 50px;
-    /*font-weight: 300;*/
     font-family: 'proximanova-light', sans-serif;
 }
 @media (min-width: 768px) {
