@@ -212,8 +212,8 @@ body {
     position: relative;
     display: table-cell;
     /*vertical-align: middle;*/
-    padding-top: 70px;
-    padding-bottom: 70px;
+    margin-top: 30px;
+    /*padding-bottom: 10px;*/
 }
 
 /*@media (min-width: 1280px) {*/
@@ -264,19 +264,19 @@ body {
     vertical-align: middle;
 }
 
-.logo {
-    margin-top: 30px;
-    margin-bottom: 50px;
-}
+/*.logo {*/
+    /*margin-top: 30px;*/
+    /*margin-bottom: 50px;*/
+/*}*/
 
 #intro .intro-body .logo > h1 {
     color: rgba(222, 72, 57, 0.8);
     font-family: 'proximanova-light', sans-serif;
     font-size: 80px;
 }
-#intro .intro-body .intro-text {
-    margin-top: 40px;
-}
+/*#intro .intro-body .intro-text {*/
+    /*margin-top: 30px;*/
+/*}*/
 #intro .intro-body .intro-text h2 {
     color: #fff;
     font-size: 50px;
@@ -349,7 +349,7 @@ body {
 
 
 #intro .intro-body .page-scroll {
-    margin-top: 30px;
+    margin-top: 40px;
 }
 /*@media (min-width: 768px) {*/
     /*#intro .intro-body .page-scroll {*/
@@ -357,7 +357,7 @@ body {
     /*}*/
 /*}*/
 #intro .intro-body .page-scroll a.btn {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'proximanova-light', sans-serif;
 }
 /*@media (min-width: 768px) {*/
     /*#intro .intro-body .page-scroll a.btn {*/
