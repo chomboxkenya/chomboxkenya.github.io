@@ -192,7 +192,7 @@ body {
     -o-background-size: 100% auto;
     background-size: 100% auto;
 }
-@media (min-width: 667px) {
+@media (min-width: 768px) {
     #intro {
         height: 100%;
         padding: 0;
@@ -207,11 +207,23 @@ body {
     padding-top: 70px;
     padding-bottom: 70px;
 }
+
 @media (min-width: 1280px) {
     #intro .intro-body {
         padding-top: 0px;
         padding-bottom: 20px;
     }
+}
+
+/* Portrait and Landscape */
+@media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 667px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        #intro .intro-body {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
 }
 
 #intro .intro-text {
