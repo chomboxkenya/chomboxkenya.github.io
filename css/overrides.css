@@ -302,7 +302,7 @@ body {
 
 @media (max-width: 768px) {
     #intro {
-        background: url("../images/freightertop_768.jpg") no-repeat bottom center;
+        background: url("../images/freightertop_767.jpg") no-repeat bottom center;
         height: 100%;
         padding: 0;
         background-attachment: fixed;
