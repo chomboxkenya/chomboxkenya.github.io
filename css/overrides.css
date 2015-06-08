@@ -215,32 +215,41 @@ body {
     }
 }
 
-/* Portrait and Landscape */
+/* iPhone 6 Portrait and Landscape */
+/* Portrait */
 @media only screen
-    and (min-device-width: 375px)
-    and (max-device-width: 667px)
-    and (-webkit-min-device-pixel-ratio: 2) {
-        #intro .intro-body {
-            padding-top: 10px;
-            padding-bottom: 10px;
-        }
-        #intro .intro-body .logo > h1 {
-            font-size: 20px;
-        }
-        #intro .intro-body .intro-text {
-            margin-top: 10px;
-        }
-        #intro .intro-body .intro-text h2 {
-            font-size: 15px;
-        }
-        #intro .intro-body .intro-text p.lead {
-            font-size: 12px;
-            padding-left: 10px;
-            padding-right: 10px;
-        }
-
-
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+    #intro .intro-body {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #intro .intro-body .logo > h1 {
+        font-size: 20px;
+    }
+    #intro .intro-body .intro-text {
+        margin-top: 10px;
+    }
+    #intro .intro-body .intro-text h2 {
+        font-size: 15px;
+    }
+    #intro .intro-body .intro-text p.lead {
+        font-size: 12px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
+
+/* Landscape */
+/*@media only screen*/
+/*and (min-device-width: 375px)*/
+/*and (max-device-width: 667px)*/
+/*and (-webkit-min-device-pixel-ratio: 2)*/
+/*and (orientation: landscape) {*/
+
+/*}*/
 
 #intro .intro-text {
     vertical-align: middle;
