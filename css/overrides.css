@@ -16,13 +16,13 @@ html, body {
 @font-face {
     font-family: proximanova-semibold;
     src: url(/fonts/proximanova-semibold-webfont.woff);
-    font-weight: 300;
+    font-weight: 600;
 }
 
 @font-face {
     font-family: proximanova-bold;
     src: url(/fonts/proximanova-bold-webfont.woff);
-    font-weight: 300;
+    font-weight: 700;
 }
 
 /* ====== NavBar ====== */
@@ -57,15 +57,27 @@ html, body {
 }
 .navbar.navbar-fixed-top .navbar-toggle {
     margin-top: 12px;
-    background-color: #1abc9c;
-}
-.navbar.navbar-fixed-top .navbar-nav > li > a {
+    background-color: #de4839;
     color: #fff;
-    font-weight: 400;
+}
+
+#navbar-collapse {
+    float: right;
+}
+
+/*.nav-btn-cta {*/
+    /*border: 1px solid #fff;*/
+
+/*}*/
+
+.navbar.navbar-fixed-top .navbar-nav > li > a {
+    font-family: 'proximanova', sans-serif;
+    color: #fff;
+    /*font-weight: 400;*/
     text-transform: uppercase;
     line-height: 70px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 0;
+    padding-bottom: 0;
 
 }
 /*@media (min-width: 992px) {*/
@@ -78,15 +90,15 @@ html, body {
 /*}*/
 
 .navbar.navbar-fixed-top .navbar-nav > li > a:hover {
-    color: #de4839;
-    background-color: #fff;
+    color: #00aeef;
+    background: none;
 }
 
 .navbar.navbar-fixed-top .navbar-nav > li.nav-item.nav-item-cta.last a.btn-cta-secondary {
     border: 1px solid #fff;
     background: #fff;
     color: #de4839;
-    margin-top: 5px;
+    /*margin-top: 5px;*/
 }
 
 .navbar.navbar-fixed-top .navbar-nav > li.nav-item.nav-item-cta.last a.btn-cta-secondary:hover {
@@ -112,8 +124,8 @@ html, body {
     /*}*/
 /*}*/
 
-.menu-nav {
-    margin-top: 15px;
+.menu-nav .nav .navbar-nav .nav-item a:hover {
+    background: none;
 }
 
 /* ======= Scroll Down Arrow ====== */
@@ -279,18 +291,21 @@ body {
 /*}*/
 #intro .intro-body .intro-text h2 {
     color: #fff;
-    font-size: 50px;
+    font-size: 64px;
     font-family: 'proximanova-light', sans-serif;
-    margin-top: 40px;
+    margin-top: 50px;
+    font-weight: 300;
 }
 
 #intro .intro-body .intro-text p.lead {
     color: #fff;
-    font-size: 22px;
+    /*font-size: 22px;*/
+    font-size: 1.33em;
+    line-height: 1.25;
     font-weight: 400;
     font-family: 'proximanova', sans-serif;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 125px;
+    padding-right: 125px;
 }
 
 /* Portrait */
