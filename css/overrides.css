@@ -303,7 +303,7 @@ body {
 @media (max-width: 767px)
 and (orientation: portrait) {
     #intro {
-        background: url("../images/freightertop_767.jpg") no-repeat bottom center;
+        background: url("../images/freightertop2_767.jpg") no-repeat bottom center;
         /*height: 100%;*/
         /*padding: 0;*/
         /*background-attachment: fixed;*/
