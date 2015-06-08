@@ -311,9 +311,6 @@ body {
     #intro .intro-body {
         padding-top: 0;
         padding-bottom: 0;
-    }
-
-    #intro .intro-body {
         margin-top: 20px;
     }
 
@@ -343,9 +340,15 @@ body {
         padding-left: 30px;
         padding-right: 30px;
     }
+
+    #intro .intro-body .page-scroll {
+        margin-top: 135px;
+    }
 }
+
+
 #intro .intro-body .page-scroll {
-    margin-top: 135px;
+    margin-top: 30px;
 }
 /*@media (min-width: 768px) {*/
     /*#intro .intro-body .page-scroll {*/
