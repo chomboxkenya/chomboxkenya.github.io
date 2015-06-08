@@ -34,14 +34,17 @@ html, body {
     height: 70px;
     background-color: #de4839;
     box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.2);
+    -webkit-transition: background 0.2s ease-in-out, padding 0.3s ease-in-out;
+    -moz-transition: background 0.2s ease-in-out, padding 0.3s ease-in-out;
+    transition: background 0.2s ease-in-out, padding 0.3s ease-in-out;
 }
-@media (min-width: 768px) {
-    .navbar.navbar-fixed-top {
-        -webkit-transition: background 0.2s ease-in-out, padding 0.3s ease-in-out;
-        -moz-transition: background 0.2s ease-in-out, padding 0.3s ease-in-out;
-        transition: background 0.2s ease-in-out, padding 0.3s ease-in-out;
-    }
-}
+/*@media (min-width: 768px) {*/
+    /*.navbar.navbar-fixed-top {*/
+        /*-webkit-transition: background 0.2s ease-in-out, padding 0.3s ease-in-out;*/
+        /*-moz-transition: background 0.2s ease-in-out, padding 0.3s ease-in-out;*/
+        /*transition: background 0.2s ease-in-out, padding 0.3s ease-in-out;*/
+    /*}*/
+/*}*/
 
 #logo{
     background:url("../images/chombox_hori_w2.png");
@@ -60,15 +63,19 @@ html, body {
     color: #fff;
     font-weight: 400;
     text-transform: uppercase;
+    line-height: 70px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
 }
-@media (min-width: 992px) {
-    .navbar.navbar-fixed-top .navbar-nav > li > a {
-        /*min-height: 70px;*/
-        line-height: 70px;
-        padding-top: 0px;
-        padding-bottom: 0px;
-    }
-}
+/*@media (min-width: 992px) {*/
+    /*.navbar.navbar-fixed-top .navbar-nav > li > a {*/
+        /*/!*min-height: 70px;*!/*/
+        /*line-height: 70px;*/
+        /*padding-top: 0px;*/
+        /*padding-bottom: 0px;*/
+    /*}*/
+/*}*/
 
 .navbar.navbar-fixed-top .navbar-nav > li > a:hover {
     color: #de4839;
@@ -96,14 +103,14 @@ html, body {
     background-color: #1abc9c;
     color: #fff;
 }
-@media (min-width: 992px) {
-    .navbar.navbar-fixed-top .navbar-nav > li.active a,
-    .navbar.navbar-fixed-top .navbar-nav > li.active a:hover {
-        color: #fff;
-        background-color: #1abc9c;
-        background-repeat: repeat;
-    }
-}
+/*@media (min-width: 992px) {*/
+    /*.navbar.navbar-fixed-top .navbar-nav > li.active a,*/
+    /*.navbar.navbar-fixed-top .navbar-nav > li.active a:hover {*/
+        /*color: #fff;*/
+        /*background-color: #1abc9c;*/
+        /*background-repeat: repeat;*/
+    /*}*/
+/*}*/
 
 .menu-nav {
     margin-top: 15px;
@@ -184,21 +191,22 @@ body {
     position: relative;
     display: table;
     width: 100%;
-    /*height: auto;*/
-    /*color: #fff;*/
+    height: 100%;
+    padding: 0;
+    background-attachment: fixed;
     background: url("../images/freightertop_1400.jpg") no-repeat top center;
     -webkit-background-size: 100% auto;
     -moz-background-size: 100% auto;
     -o-background-size: 100% auto;
     background-size: 100% auto;
 }
-@media (min-width: 768px) {
-    #intro {
-        height: 100%;
-        padding: 0;
-        background-attachment: fixed;
-    }
-}
+/*@media (min-width: 768px) {*/
+    /*#intro {*/
+        /*height: 100%;*/
+        /*padding: 0;*/
+        /*background-attachment: fixed;*/
+    /*}*/
+/*}*/
 
 #intro .intro-body {
     position: relative;
@@ -208,40 +216,40 @@ body {
     padding-bottom: 70px;
 }
 
-@media (min-width: 1280px) {
-    #intro .intro-body {
-        padding-top: 0px;
-        padding-bottom: 20px;
-    }
-}
+/*@media (min-width: 1280px) {*/
+    /*#intro .intro-body {*/
+        /*padding-top: 0px;*/
+        /*padding-bottom: 20px;*/
+    /*}*/
+/*}*/
 
 /* iPhone 6 Portrait and Landscape */
+
 /* Portrait */
-@media only screen
-and (min-device-width: 375px)
-and (max-device-width: 667px)
-and (-webkit-min-device-pixel-ratio: 2)
-and (orientation: portrait) {
+/*@media only screen */
+/*and (min-device-width: 375px) */
+/*and (max-device-width: 667px) */
+/*and (-webkit-min-device-pixel-ratio: 2) */
+/*and (orientation: portrait) {*/
     /*#intro .intro-body {*/
         /*padding-top: 10px;*/
         /*padding-bottom: 10px;*/
     /*}*/
-    #intro .intro-body .logo > h1 {
-        font-size: 20px;
-        color: black;
-    }
-    #intro .intro-body .intro-text {
-        margin-top: 10px;
-    }
-    #intro .intro-body .intro-text h2 {
-        font-size: 15px;
-    }
-    #intro .intro-body .intro-text p.lead {
-        font-size: 12px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-}
+    /*#intro .intro-body .logo > h1 {*/
+        /*font-size: 20px;*/
+    /*}*/
+    /*#intro .intro-body .intro-text {*/
+        /*margin-top: 10px;*/
+    /*}*/
+    /*#intro .intro-body .intro-text h2 {*/
+        /*font-size: 15px;*/
+    /*}*/
+    /*#intro .intro-body .intro-text p.lead {*/
+        /*font-size: 12px;*/
+        /*padding-left: 10px;*/
+        /*padding-right: 10px;*/
+    /*}*/
+/*}*/
 
 /* Landscape */
 /*@media only screen*/
@@ -274,11 +282,7 @@ and (orientation: portrait) {
     font-size: 50px;
     font-family: 'proximanova-light', sans-serif;
 }
-@media (min-width: 768px) {
-    #intro .intro-body .intro-text h2 {
-        font-size: 55px;
-    }
-}
+
 #intro .intro-body .intro-text p.lead {
     color: #fff;
     font-size: 22px;
@@ -287,19 +291,36 @@ and (orientation: portrait) {
     padding-left: 150px;
     padding-right: 150px;
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
+    #intro .intro-body {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    #intro .intro-body .intro-text {
+        margin-top: 0;
+    }
+
+    #intro .intro-body .logo > h1 {
+        font-size: 20px;
+    }
+
+    #intro .intro-body .intro-text h2 {
+        font-size: 16px;
+    }
+
     #intro .intro-body .intro-text p.lead {
-        font-size: 22px;
+        font-size: 12px;
     }
 }
 #intro .intro-body .page-scroll {
     margin-top: 30px;
 }
-@media (min-width: 768px) {
-    #intro .intro-body .page-scroll {
-        margin-top: 50px;
-    }
-}
+/*@media (min-width: 768px) {*/
+    /*#intro .intro-body .page-scroll {*/
+        /*margin-top: 50px;*/
+    /*}*/
+/*}*/
 #intro .intro-body .page-scroll a.btn {
     font-family: 'Raleway', sans-serif;
 }
