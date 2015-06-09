@@ -26,7 +26,6 @@ html, body {
 }
 
 /* ====== NavBar ====== */
-
 .navbar.navbar-fixed-top {
     position: relative;
     margin: 0;
@@ -46,15 +45,13 @@ html, body {
     /*}*/
 /*}*/
 
-#logo{
+.navbar.navbar-fixed-top .navbar-brand {
     background:url("../images/chombox_hori_w2.png");
     height: 30px;
     width: 290px;
     margin-top: 20px;
 }
-.navbar.navbar-fixed-top .navbar-brand:hover {
-    color: #fff;
-}
+
 .navbar.navbar-fixed-top .navbar-toggle {
     margin-top: 12px;
     background-color: #de4839;
@@ -65,21 +62,22 @@ html, body {
     float: right;
 }
 
+.navbar.navbar-fixed-top .navbar-nav > li > a {
+    font-family: 'proximanova', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 70px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
 /*.nav-btn-cta {*/
     /*border: 1px solid #fff;*/
 
 /*}*/
 
-.navbar.navbar-fixed-top .navbar-nav > li > a {
-    font-family: 'proximanova', sans-serif;
-    color: #fff;
-    /*font-weight: 400;*/
-    text-transform: uppercase;
-    line-height: 70px;
-    padding-top: 0;
-    padding-bottom: 0;
 
-}
 /*@media (min-width: 992px) {*/
     /*.navbar.navbar-fixed-top .navbar-nav > li > a {*/
         /*/!*min-height: 70px;*!/*/
@@ -212,6 +210,49 @@ body {
     -o-background-size: 100% auto;
     background-size: 100% auto;
 }
+
+#learning-labs-area {
+    position: absolute;
+    top: 520px;
+    left: 72px;
+    width: 175px;
+    height: 20px;
+    background-color: transparent;
+    /*border: 1px solid yellow;*/
+}
+
+#housing-area {
+    position: absolute;
+    top: 454px;
+    left: 398px;
+    width: 90px;
+    height: 22px;
+    background-color: transparent;
+    /*border: 1px solid yellow;*/
+}
+
+#medical-clinics-area {
+    position: absolute;
+    top: 425px;
+    left: 916px;
+    width: 170px;
+    height: 22px;
+    background-color: transparent;
+    /*border: 1px solid yellow;*/
+}
+
+#coffee-shops-area {
+    position: absolute;
+    top: 488px;
+    left: 1032px;
+    width: 175px;
+    height: 22px;
+    background-color: transparent;
+    /*border: 1px solid yellow;*/
+}
+
+
+
 /*@media (min-width: 768px) {*/
     /*#intro {*/
         /*height: 100%;*/

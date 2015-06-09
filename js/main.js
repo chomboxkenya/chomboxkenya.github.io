@@ -33,6 +33,32 @@ $(document).ready(function() {
         }
     });
 
+
+    /*---------------------------------------*/
+    /*  JQUERY FOR PAGE SCROLLING FEATURE
+     /*  requires jQuery Easing plugin
+     /*---------------------------------------*/
+    var pageScroll = function(){
+        $('.page-scroll a').bind('click', function(e){
+            e.preventDefault();
+
+            var $anchor = $(this);
+
+            var offset = $('body').attr('data-offset');
+
+            if($('.navbar.navbar-fixed-top').hasClass('side-menu') && $(window).width() >= 992){
+                $('body').data('offset', 1);
+                offset = $('body').data('offset');
+            }
+
+            $('html, body').stop().animate({
+                scrollTop: $($anchor.attr('href')).offset().top - (offset - 1)
+            }, 1500, 'easeInOutExpo');
+        });
+    };
+
+    pageScroll();
+
     /* ======= Twitter Bootstrap hover dropdown ======= */
     /* Ref: https://github.com/CWSpear/bootstrap-hover-dropdown */ 
     /* apply dropdownHover to all elements with the data-hover="dropdown" attribute */
@@ -95,37 +121,5 @@ $(document).ready(function() {
     $('#testimonials-carousel').carousel({
       interval: 8000 
     });
-    
-    
-    /* ======= Style Switcher ======= */    
-    $('#config-trigger').on('click', function(e) {
-        var $panel = $('#config-panel');
-        var panelVisible = $('#config-panel').is(':visible');
-        if (panelVisible) {
-            $panel.hide();          
-        } else {
-            $panel.show();
-        }
-        e.preventDefault();
-    });
-    
-    $('#config-close').on('click', function(e) {
-        e.preventDefault();
-        $('#config-panel').hide();
-    });
-    
-    
-    $('#color-options a').on('click', function(e) { 
-        var $styleSheet = $(this).attr('data-style');
-		$('#theme-style').attr('href', $styleSheet);	
-				
-		var $listItem = $(this).closest('li');
-		$listItem.addClass('active');
-		$listItem.siblings().removeClass('active');
-		
-		e.preventDefault();
-		
-	});
-
 
 });
