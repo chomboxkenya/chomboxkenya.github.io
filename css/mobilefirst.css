@@ -99,7 +99,7 @@ body {
     color: #fff;
     font-size: 64px;
     font-family: 'proximanova-light', sans-serif;
-    /*margin-top: 50px;*/
+    margin-top: 50px;
     font-weight: 300;
 }
 
@@ -130,6 +130,10 @@ body {
         margin-left: 15px;
     }
 
+    #intro .intro-body .logo > h1 {
+        font-size: 40px;
+    }
+
 }
 
 /* Small Devices, Tablets */
@@ -138,6 +142,10 @@ body {
         -webkit-transition: background 0.2s ease-in-out, padding 0.3s ease-in-out;
         -moz-transition: background 0.2s ease-in-out, padding 0.3s ease-in-out;
         transition: background 0.2s ease-in-out, padding 0.3s ease-in-out;
+    }
+
+    #intro .intro-body .logo > h1 {
+        font-size: 60px;
     }
 }
 
@@ -148,5 +156,8 @@ body {
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
+    #intro .intro-body .logo > h1 {
+        font-size: 80px;
+    }
 
 }
