@@ -4,6 +4,7 @@
     <list default="true" id="27bf50a2-a916-42d7-9982-f0e5d0d95b59" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mobilefirst.css" afterPath="$PROJECT_DIR$/css/mobilefirst.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="chomboxhealth.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.647059">
-              <caret line="126" column="71" selection-start-line="126" selection-start-column="71" selection-end-line="126" selection-end-column="71" />
+            <state vertical-scroll-proportion="-15.882353">
+              <caret line="118" column="70" selection-start-line="118" selection-start-column="70" selection-end-line="118" selection-end-column="70" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#a#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -39,8 +40,8 @@
       <file leaf-file-name="overrides.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/overrides.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.888889">
-              <caret line="335" column="49" selection-start-line="335" selection-start-column="4" selection-end-line="335" selection-end-column="49" />
+            <state vertical-scroll-proportion="-23.0">
+              <caret line="252" column="0" selection-start-line="213" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
               <folding>
                 <element signature="e#4642#5973#2" expanded="true" />
               </folding>
@@ -51,8 +52,8 @@
       <file leaf-file-name="mobilefirst.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/mobilefirst.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2920354">
-              <caret line="43" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.2699115">
+              <caret line="94" column="1" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -88,8 +89,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-59.444443">
-              <caret line="214" column="26" selection-start-line="214" selection-start-column="19" selection-end-line="214" selection-end-column="26" />
+            <state vertical-scroll-proportion="-3.851852">
+              <caret line="2971" column="17" selection-start-line="2971" selection-start-column="12" selection-end-line="2971" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -685,18 +686,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/images/chombox_hori_w.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/chombox_hori_w2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-59.444443">
-          <caret line="214" column="26" selection-start-line="214" selection-start-column="19" selection-end-line="214" selection-end-column="26" />
+        <state vertical-scroll-proportion="-3.851852">
+          <caret line="2971" column="17" selection-start-line="2971" selection-start-column="12" selection-end-line="2971" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/overrides.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.888889">
-          <caret line="335" column="49" selection-start-line="335" selection-start-column="4" selection-end-line="335" selection-end-column="49" />
+        <state vertical-scroll-proportion="-23.0">
+          <caret line="252" column="0" selection-start-line="213" selection-start-column="0" selection-end-line="252" selection-end-column="0" />
           <folding>
             <element signature="e#4642#5973#2" expanded="true" />
           </folding>
@@ -705,8 +716,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.647059">
-          <caret line="126" column="71" selection-start-line="126" selection-start-column="71" selection-end-line="126" selection-end-column="71" />
+        <state vertical-scroll-proportion="-15.882353">
+          <caret line="118" column="70" selection-start-line="118" selection-start-column="70" selection-end-line="118" selection-end-column="70" />
           <folding>
             <element signature="n#style#0;n#span#0;n#a#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -715,8 +726,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/mobilefirst.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2920354">
-          <caret line="43" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.2699115">
+          <caret line="94" column="1" selection-start-line="94" selection-start-column="1" selection-end-line="94" selection-end-column="1" />
           <folding />
         </state>
       </provider>
