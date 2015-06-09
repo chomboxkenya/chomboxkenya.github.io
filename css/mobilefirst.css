@@ -28,6 +28,10 @@ img {
     width: 100%;
 }
 
+.navbar-brand {
+    font-family: 'proximanova-light', sans-serif;
+}
+
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */
