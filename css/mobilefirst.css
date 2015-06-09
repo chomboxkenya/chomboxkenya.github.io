@@ -80,12 +80,12 @@ body {
     width: 100%;
     padding: 0;
     height: 100%;
+    background: url("../images/freightertop_1400.jpg") no-repeat top center;
     background-attachment: fixed;
-    background: url("../images/freightertop_767.jpg") no-repeat top center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
 }
 
 #intro .intro-body .logo > h1 {
