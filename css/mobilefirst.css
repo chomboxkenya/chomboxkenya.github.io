@@ -108,18 +108,10 @@ body {
 
 #intro .intro-body .intro-text p.lead {
     color: #fff;
-    /*font-size: 1.4em;*/
-    line-height: 1.25;
+    /*line-height: 1.25;*/
     font-family: 'proximanova', sans-serif;
     font-weight: 400;
-    margin-bottom: 10px;
-
 }
-
-.btn-cta-primary {
-    /*margin-top: 160px;*/
-}
-
 
 /*==========  Mobile First Method  ==========*/
 
@@ -130,17 +122,17 @@ body {
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
-    .navbar-brand {
-        margin-left: 15px;
-    }
+    /*.navbar-brand {*/
+        /*margin-left: 15px;*/
+    /*}*/
 
-    #intro .intro-body .logo > h1 {
-        font-size: 36px;
-    }
+    /*#intro .intro-body .logo > h1 {*/
+        /*font-size: 36px;*/
+    /*}*/
 
-    #intro .intro-body .intro-text h2 {
-        font-size: 32px;
-    }
+    /*#intro .intro-body .intro-text h2 {*/
+        /*font-size: 32px;*/
+    /*}*/
 
 }
 
@@ -152,40 +144,40 @@ body {
         transition: background 0.2s ease-in-out, padding 0.3s ease-in-out;
     }
 
-    #intro .intro-body .logo > h1 {
-        font-size: 55px;
-    }
+    /*#intro .intro-body .logo > h1 {*/
+        /*font-size: 0.688em;*/
+    /*}*/
 
-    #intro .intro-body .intro-text h2 {
-        font-size: 45px;
-    }
+    /*#intro .intro-body .intro-text h2 {*/
+        /*font-size: 45px;*/
+    /*}*/
 
-    .btn-cta-primary {
-        margin-top: 150px;
-    }
+    /*.btn-cta-primary {*/
+        /*margin-top: 150px;*/
+    /*}*/
 
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-    #intro .intro-body .logo > h1 {
-        font-size: 80px;
-    }
+    /*#intro .intro-body .logo > h1 {*/
+        /*font-size: 80px;*/
+    /*}*/
 
-    #intro .intro-body .intro-text h2 {
-        font-size: 58px;
-    }
+    /*#intro .intro-body .intro-text h2 {*/
+        /*font-size: 58px;*/
+    /*}*/
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-    #intro .intro-body .intro-text h2 {
-        font-size: 64px;
-    }
+    /*#intro .intro-body .intro-text h2 {*/
+        /*font-size: 64px;*/
+    /*}*/
 
-    #intro .intro-body .intro-text p.lead {
-        padding-left: 10%;
-        padding-right: 10%;
-    }
+    /*#intro .intro-body .intro-text p.lead {*/
+        /*padding-left: 10%;*/
+        /*padding-right: 10%;*/
+    /*}*/
 
 }
