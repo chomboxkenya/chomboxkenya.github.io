@@ -75,54 +75,46 @@ body {
 }
 /*==========  INTRO  ==========*/
 #intro {
+    position: relative;
+    display: table;
+    width: 100%;
+    padding: 0;
     height: 100%;
     background-attachment: fixed;
-    background: url("../images/freightertop_1400.jpg") no-repeat top center;
-    -webkit-background-size: 100% auto;
-    -moz-background-size: 100% auto;
-    -o-background-size: 100% auto;
-    background-size: 100% auto;
+    background: url("../images/freightertop_767.jpg") no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-#learning-labs-area {
-    position: absolute;
-    top: 520px;
-    left: 72px;
-    width: 175px;
-    height: 20px;
-    background-color: transparent;
-    border: 1px solid yellow;
+#intro .intro-body .logo > h1 {
+    color: rgba(222, 72, 57, 0.8);
+    font-family: 'proximanova-light', sans-serif;
+    font-weight: 300;
+    font-size: 80px;
 }
 
-#housing-area {
-    position: absolute;
-    top: 454px;
-    left: 398px;
-    width: 90px;
-    height: 22px;
-    background-color: transparent;
-    border: 1px solid yellow;
+#intro .intro-body .intro-text h2 {
+    color: #fff;
+    font-size: 64px;
+    font-family: 'proximanova-light', sans-serif;
+    /*margin-top: 50px;*/
+    font-weight: 300;
 }
 
-#medical-clinics-area {
-    position: absolute;
-    top: 425px;
-    left: 916px;
-    width: 170px;
-    height: 22px;
-    background-color: transparent;
-    border: 1px solid yellow;
+#intro .intro-body .intro-text p.lead {
+    color: #fff;
+    /*font-size: 22px;*/
+    font-size: 1.33em;
+    line-height: 1.25;
+    font-family: 'proximanova', sans-serif;
+    font-weight: 400;
+    padding-left: 125px;
+    padding-right: 125px;
+    color: #ffffff;
 }
 
-#coffee-shops-area {
-    position: absolute;
-    top: 488px;
-    left: 1032px;
-    width: 175px;
-    height: 22px;
-    background-color: transparent;
-    border: 1px solid yellow;
-}
 
 
 /*==========  Mobile First Method  ==========*/
