@@ -92,12 +92,12 @@ body {
     color: rgba(222, 72, 57, 0.8);
     font-family: 'proximanova-light', sans-serif;
     font-weight: 300;
-    font-size: 80px;
+    /*font-size: 80px;*/
 }
 
 #intro .intro-body .intro-text h2 {
     color: #fff;
-    font-size: 64px;
+    /*font-size: 64px;*/
     font-family: 'proximanova-light', sans-serif;
     margin-top: 50px;
     font-weight: 300;
@@ -134,6 +134,10 @@ body {
         font-size: 40px;
     }
 
+    #intro .intro-body .intro-text h2 {
+        font-size: 32px;
+    }
+
 }
 
 /* Small Devices, Tablets */
@@ -147,17 +151,25 @@ body {
     #intro .intro-body .logo > h1 {
         font-size: 60px;
     }
+
+    #intro .intro-body .intro-text h2 {
+        font-size: 50px;
+    }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+    #intro .intro-body .logo > h1 {
+        font-size: 80px;
+    }
+
+    #intro .intro-body .intro-text h2 {
+        font-size: 64px;
+    }
 
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-    #intro .intro-body .logo > h1 {
-        font-size: 80px;
-    }
 
 }
