@@ -128,9 +128,15 @@ and (orientation: portrait) {
         font-size: .8125em;
     }
 
-    a.btn-cta-primary:hover, .btn-cta-primary {
+    .intro-content {
+        height: 100vh;
+    }
+
+    a.btn-cta-primary {
         font-size: .875em;
-        margin-top: 115%;
+        position: absolute;
+        bottom: 6vh;
+        left: 12vw;
     }
 
 
