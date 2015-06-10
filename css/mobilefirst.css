@@ -248,6 +248,12 @@ and (orientation: landscape) {
         font-size: 5em;
     }
 
+    a.btn-cta-primary {
+        font-size: 1.125em;
+        border-radius: 6px;
+        line-height: 1.3333333;
+    }
+
     /*#intro .intro-body .intro-text h2 {*/
         /*font-size: 58px;*/
     /*}*/
