@@ -248,7 +248,7 @@ and (orientation: landscape) {
         font-size: 5em;
     }
 
-    a.btn-cta-primary {
+    a.btn-cta-lg {
         font-size: 1.125em;
         border-radius: 6px;
         line-height: 1.3333333;
