@@ -114,9 +114,9 @@ and (orientation: portrait) {
         margin-top: 10px;
     }
 
-    #js-rotating {
-        color: #de4839;
-    }
+    /*#js-rotating {*/
+        /*color: #de4839;*/
+    /*}*/
 
 
     #intro .intro-body .intro-text h2 {
@@ -127,6 +127,12 @@ and (orientation: portrait) {
     #intro .intro-body .intro-text p.lead {
         font-size: .8125em;
     }
+
+    a.btn-cta-primary:hover, .btn-cta-primary {
+        font-size: .875em;
+        margin-top: 115%;
+    }
+
 
 }
 
@@ -147,6 +153,7 @@ and (orientation: portrait) {
     font-family: 'proximanova', sans-serif;
     font-weight: 400;
 }
+
 
 /*==========  Mobile First Method  ==========*/
 
