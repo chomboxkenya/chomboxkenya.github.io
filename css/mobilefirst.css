@@ -120,8 +120,8 @@ and (orientation: portrait) {
 
 
     #intro .intro-body .intro-text h2 {
-        font-size: 1.1em;
-        margin-top: 5px;
+        font-size: 1.2em;
+        margin-top: 0;
     }
 
     #intro .intro-body .intro-text p.lead {
@@ -130,6 +130,7 @@ and (orientation: portrait) {
 
     .intro-content {
         height: 100vh;
+        padding: 0 0 ;
     }
 
     a.btn-cta-primary {

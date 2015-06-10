@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27bf50a2-a916-42d7-9982-f0e5d0d95b59" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mobilefirst.css" afterPath="$PROJECT_DIR$/css/mobilefirst.css" />
     </list>
     <ignored path="chomboxhealth.iws" />
@@ -51,8 +50,8 @@
       <file leaf-file-name="mobilefirst.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/mobilefirst.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.048154093">
-              <caret line="160" column="19" selection-start-line="160" selection-start-column="19" selection-end-line="160" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.6120944">
+              <caret line="126" column="43" selection-start-line="126" selection-start-column="43" selection-end-line="126" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -709,8 +708,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/mobilefirst.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.048154093">
-          <caret line="160" column="19" selection-start-line="160" selection-start-column="19" selection-end-line="160" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.6120944">
+          <caret line="126" column="43" selection-start-line="126" selection-start-column="43" selection-end-line="126" selection-end-column="43" />
           <folding />
         </state>
       </provider>
