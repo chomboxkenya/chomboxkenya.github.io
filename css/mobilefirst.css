@@ -42,7 +42,6 @@ body {
     position: relative;
     margin: 0;
     border: 0;
-    /*min-height: 70px;*/
     background-color: #de4839;
     box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.2);
 }
@@ -73,9 +72,9 @@ body {
     top: 50px;
 }
 
-.navbar-collapse.collapse .navbar-nav {
-    margin-top: 10px;
-}
+/*.navbar-collapse.collapse .navbar-nav {*/
+    /*margin-top: 10px;*/
+/*}*/
 
 .navbar-inverse .navbar-nav>li>a {
     color: #fff;
@@ -115,18 +114,9 @@ and (orientation: portrait) {
         margin-top: 10px;
     }
 
-    /*#js-rotating {*/
-        /*color: #de4839;*/
-    /*}*/
-
-
     #intro .intro-body .intro-text h2 {
         font-size: 1.2em;
         margin-top: 0;
-    }
-
-    #intro .intro-body .intro-text p.lead {
-        /*font-size: .8125em;*/
     }
 
     .intro-content {
@@ -135,11 +125,18 @@ and (orientation: portrait) {
         padding: 0 0 ;
     }
 
+    #intro .intro-body .intro-text p.lead {
+        line-height: 1;
+    }
+
+    a.btn-cta, {
+        padding: 0 0;
+    }
+
     a.btn-cta-primary {
         font-size: .875em;
         position: relative;
         top: 59vh;
-        /*left: 12vw;*/
     }
 
 }
@@ -165,12 +162,19 @@ and (orientation: landscape) {
         text-align: center;
     }
 
+    #intro .intro-body .intro-text p.lead {
+        line-height: 1;
+    }
+
+    a.btn-cta, {
+        padding: 0 0;
+    }
+
     a.btn-cta-primary {
         font-size: .875em;
         position: relative;
         top: 25vh;
     }
-
 }
 
 #intro .intro-body .logo > h1 {
@@ -189,7 +193,7 @@ and (orientation: landscape) {
     color: #fff;
     font-family: 'proximanova', sans-serif;
     font-weight: 400;
-    line-height: 1;
+    line-height: 1.1;
 }
 
 
@@ -197,10 +201,10 @@ and (orientation: landscape) {
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
-.navbar-brand {
-    width: 205px;
-    margin-top: 10px;
-}
+    .navbar-brand {
+        width: 205px;
+        margin-top: 10px;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -216,17 +220,25 @@ and (orientation: landscape) {
         transition: background 0.2s ease-in-out, padding 0.3s ease-in-out;
     }
 
+    .navbar-brand {
+        width: 290px;
+        height: 30px;
+        margin-top: 10px;
+    }
+
+
     #intro .intro-body .logo > h1 {
         font-size: 3.438em;
     }
 
     #intro .intro-body .intro-text h2 {
-        /*font-size: 2.813em;*/
+        font-size: 2.813em;
+        font-family: 'proximanova-light', arial, sans-serif;
     }
 
-    /*.btn-cta-primary {*/
-        /*margin-top: 150px;*/
-    /*}*/
+    a.btn-cta, {
+        padding: 8px 30px;
+    }
 
 }
 
@@ -247,9 +259,9 @@ and (orientation: landscape) {
         /*font-size: 64px;*/
     /*}*/
 
-    /*#intro .intro-body .intro-text p.lead {*/
-        /*padding-left: 10%;*/
-        /*padding-right: 10%;*/
-    /*}*/
+    #intro .intro-body .intro-text p.lead {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
 
 }
