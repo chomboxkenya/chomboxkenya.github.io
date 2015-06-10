@@ -42,13 +42,13 @@ body {
     position: relative;
     margin: 0;
     border: 0;
-    min-height: 70px;
+    /*min-height: 70px;*/
     background-color: #de4839;
     box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.2);
 }
 
 .navbar.navbar-fixed-top .navbar-toggle {
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     background-color: #de4839;
     color: #fff;
     border-color: #fff;
@@ -70,6 +70,7 @@ body {
 .navbar-collapse {
     text-transform: uppercase;
     font-size: 14px;
+    top: 50px;
 }
 
 .navbar-collapse.collapse .navbar-nav {
@@ -167,6 +168,10 @@ and (orientation: portrait) {
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
+.navbar-brand {
+    width: 205px;
+    margin-top: 10px;
+}
 }
 
 /* Extra Small Devices, Phones */
