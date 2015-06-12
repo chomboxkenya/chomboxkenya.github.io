@@ -137,7 +137,7 @@ and (orientation: portrait) {
     a.btn-cta-primary {
         font-size: .875em;
         position: relative;
-        top: 59vh;
+        top: 60vh;
     }
 
 }
@@ -174,7 +174,7 @@ and (orientation: landscape) {
     a.btn-cta-primary {
         font-size: .875em;
         position: relative;
-        top: 25vh;
+        top: 35vh;
     }
 }
 
