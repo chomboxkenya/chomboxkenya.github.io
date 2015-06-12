@@ -112,6 +112,7 @@ and (orientation: portrait) {
 
     #intro .intro-body .logo > h1 {
         margin-top: 10px;
+        margin-bottom: 0;
     }
 
     #intro .intro-body .intro-text h2 {
