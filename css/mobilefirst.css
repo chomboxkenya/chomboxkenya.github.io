@@ -184,14 +184,15 @@ and (orientation: landscape) {
 }
 
 #intro .intro-body .intro-text h2 {
-    color: #fff;
+    color: #454545;
     font-family: 'proximanova', sans-serif;
     font-weight: 400;
 }
 
 #intro .intro-body .intro-text p.lead {
-    color: #fff;
-    font-family: 'proximanova', sans-serif;
+    /*color: #fff;*/
+    color: #454545;
+    font-family: 'proximanova-semibold', sans-serif;
     font-weight: 400;
     line-height: 1.1;
 }
