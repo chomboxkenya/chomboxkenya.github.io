@@ -542,7 +542,7 @@ select {
   font-size: 18px;
 }
 .why .item {
-  padding: 90px 0;
+  padding: 45px 0;
   border-bottom: 1px solid #eeeeee;
 }
 .why .item.last-item {
@@ -781,8 +781,11 @@ select {
 }
 /* ======= cta-section ======= */
 .cta-section {
-  background: #253340 url('../images/background/bg-footer-1.jpg') no-repeat left top;
+  background: linear-gradient( rgba(0,0,0, 0.60), rgba(0,0,0, 0.60) ), url(../images/illustrations/fairoaks.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
   min-height: 420px;
   color: #fff;
   padding-top: 80px;

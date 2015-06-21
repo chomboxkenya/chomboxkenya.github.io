@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="plugins/flexslider/flexslider.css">
     <!-- Theme CSS -->
+    <!--cube portfolio-->
+    <link href="css/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/morphext.css">
     <link id="theme-style" rel="stylesheet" href="css/styles.css">
@@ -58,13 +60,13 @@
                             </h2>
 
                             <p class="lead">Equip Africa's emerging entrepreneurs to launch and manage sustainable businesses
-                                within their communities. Help transform containers into opportunities for empowerment.</p>
+                                within their communities. Transform containers into opportunities for empowerment.</p>
                         </div>
                         <!-- //.intro-text -->
 
 
                         <div class="page-scroll">
-                            <a href="#who-we-are" class="btn btn-cta btn-cta-lg btn-cta-primary text-uppercase">
+                            <a href="#work" data-scroll class="btn btn-cta btn-cta-lg btn-cta-primary text-uppercase">
                                 <span class="glyphicon glyphicon-search" aria-hidden="true" style="vertical-align:text-top"></span>
                                 Explore Projects To Impact!</a>
                         </div>
@@ -105,10 +107,10 @@
 
             <div id="navbar-collapse" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="nav-item"><a href="solutons.html">Solutions</a></li>
-                    <li class="nav-item"><a href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a data-scroll href="#why">Solutions</a></li>
+                    <li class="nav-item"><a data-scroll href="#work">Projects</a></li>
                     <li class="nav-item"><a href="learn.html">Why Containers?</a></li>
-                    <li class="nav-item"><a href="invest.html">About Us</a></li>
+                    <!--<li class="nav-item"><a href="invest.html">About Us</a></li>-->
 
                     <li class="nav-item nav-item-cta last"><a class="nav-btn-cta" href="signup.html">Donate Now</a></li>
                 </ul><!--//nav-->
@@ -118,125 +120,156 @@
     </nav>
     <!-- //End Navbar -->
 
-    <!--<section class="promo section section-on-bg">-->
-        <!--<div class="container text-center">-->
-            <!--<h2 class="title">Let's get your product online fast<br />and get attention right away!</h2>-->
-            <!--<p class="intro">Velocity is a mobile-friendly HTML5 template designed to help you <br /> promote your product effectively to your target users</p>-->
-            <!--<p><a class="btn btn-cta btn-cta-primary" href="signup.html">Apply for a Franchise</a></p>-->
-            <!--<button type="button" class="play-trigger btn-link " data-toggle="modal" data-target="#modal-video" ><i class="fa fa-youtube-play"></i> Watch the video</button>-->
-        <!--</div>-->
-    <!--</section>-->
-
     <div class="sections-wrapper">
 
         <!-- ******Why Section****** -->
         <section id="why" class="section why">
             <div class="container">
-                <h2 class="title text-center">How Can Velocity Help You?</h2>
-                <p class="intro text-center">We take care of the UX and front-end design so you can save time building your site</p>
+                <h2 class="title text-center">How Does Chombox Accelerate Impact?</h2>
+                <p class="intro text-center">We deliver franchise-based solutions that equip emerging
+                    market entrepreneurs and missional organizations to launch and manage sustainable businesses. Our solutions
+                    focus on health, learning, retail and living.</p>
                 <div class="row item">
                     <div class="content col-md-4 col-sm-12 col-xs-12">
-                        <h3 id="medical-clinics"class="title">Save you time and effort</h3>
+                        <h3 id="medical-clinics"class="title"><a href="health.html">Health Solutions</a></h3>
                         <div class="desc">
-                            <p>Explain one of your product benefits here. Let users know how they can benefit using your product. It’s also a good idea to back it up with a testimonial or tweet from your users.</p>
-                            <p>The original PSD of the graphic is included in the package. You can easily customise the PSD to meet your needs.</p>
+                            <p>Chombox Health solutions are small-footprint, franchise-based facilities that accelerate
+                                access to quality and affordable medical care for low and middle income populations.</p>
+                            <p>Our facilities are purpose-built to match a community's needs and can include outpatient
+                                primary care clinics, small in-patient hospitals, maternity birthing clinics and stand-alone
+                                diagnostic, pharmacy or dental kiosks.</p>
+                            <button type="button" class="btn btn-cta btn-cta-secondary center-block" data-toggle="modal" data-target="#modal-video">
+                                Take a Tour
+                            </button>
                         </div>
+
                         <div class="quote">
                             <div class="quote-profile">
-                                <img class="img-responsive img-circle" src="images/people/profile-s-1.png" alt="" />
+                                <img class="img-responsive img-circle" src="images/people/rachael.jpg" alt="Rachael M." />
                             </div><!--//profile-->
                             <div class="quote-content">
-                                <blockquote><p><a href="https://twitter.com/3rdwave_themes" target="_blank">@velocity</a> Love it! Thank you for making my life easier and saving me time! I’ll definitely recommend it to my friends. :)</p></blockquote>
-                                <p class="source">@LisaW, Bristol</p>
+                                <blockquote><p>Love it! Chombox enables me to provide affordable, quality health care in my community.</p></blockquote>
+                                <p class="source">Rachael M., Homa Bay</p>
                             </div><!--//quote-content-->
                         </div><!--//quote-->
                     </div><!--//content-->
-                    <figure class="figure col-md-7 col-sm-12 col-xs-12 col-md-offset-1 col-sm-offset-0 col-xs-offset-0">
-                        <img class="img-responsive" src="images/highright.jpg" alt="" />
-                        <figcaption class="figure-caption">(Screenshot: Coral - App &amp; website startup kit) </figcaption>
+                    <!-- Place somewhere in the <body> of your page -->
+                    <figure class="figure clinics col-md-7 col-sm-12 col-xs-12 col-md-offset-1 col-sm-offset-0 col-xs-offset-0">
+                        <div class="flexslider">
+                            <ul class="slides">
+                                <li>
+                                    <img src="images/illustrations/highright.jpg" />
+                                </li>
+                                <li>
+                                    <img src="images/illustrations/singlexray.jpg" />
+                                </li>
+                                <li>
+                                    <img src="images/illustrations/short.jpg" />
+                                </li>
+                            </ul>
+                        </div>
                     </figure>
                 </div><!--//item-->
 
                 <div class="row item">
                     <div class="content col-md-4 col-sm-12 col-xs-12 col-md-push-8 col-sm-push-0 col-xs-push-0">
-                        <h3 id="learning-labs" class="title">Works across all devices</h3>
+                        <h3 id="learning-labs" class="title"><a href="learn.html">Learning Labs & Classrooms</a></h3>
                         <div class="desc">
                             <p>Explain one of your product benefits here. Let users know how they can benefit using your product. It’s also a good idea to back it up with a testimonial or tweet from your users.</p>
                             <p>The original PSD of the graphic is included in the package. You can easily customise the PSD to meet your needs.</p>
-                            <p><i class="fa fa-download"></i> <a href="download.html">Download mobile versions</a></p>
                         </div>
 
                         <div class="quote">
                             <div class="quote-profile">
-                                <img class="img-responsive img-circle" src="images/people/profile-s-2.png" alt="" />
+                                <img class="img-responsive img-circle" src="images/people/lameck.jpg" alt="Lameck" />
                             </div><!--//profile-->
                             <div class="quote-content">
-                                <blockquote><p>I find the mobile app very useful when I'm on the go. Sed ut perspiciatis unde omnis iste natus error sit voluptatem </p></blockquote>
-                                <p class="source">@JackT, San Francisco</p>
+                                <blockquote><p>Partnering with Chombox has enabled us to teach relevant, real-world skills to both youth and adults.</p></blockquote>
+                                <p class="source">Lameck M, Nyamira</p>
                             </div><!--//quote-content-->
                         </div><!--//quote-->
                     </div><!--//content-->
-                    <figure class="figure col-md-7 col-sm-12 col-xs-12 col-md-pull-4 col-sm-pull-0 col-xs-pull-0">
-                        <img class="img-responsive" src="images/singlexray.jpg" alt="" />
-                        <div class="control text-center">
-                            <button type="button" class="play-trigger" data-toggle="modal" data-target="#modal-video"><i class="fa fa-play"></i></button>
-                        </div><!--//control-->
+                    <figure class="figure learning col-md-7 col-sm-12 col-xs-12 col-md-pull-4 col-sm-pull-0 col-xs-pull-0">
+                        <div class="flexslider">
+                            <ul class="slides">
+                                <li>
+                                    <img src="images/illustrations/computerlab.jpg" />
+                                </li>
+                                <li>
+                                    <img src="images/illustrations/computer_lab2.jpg" />
+                                </li>
+                                <li>
+                                    <img src="images/illustrations/computerlab_inside.jpg" />
+                                </li>
+                            </ul>
+                        </div>
+                        <figcaption class="figure-caption">Learning Lab: <a href="learn.html">Model 111</a> </figcaption>
                     </figure>
                 </div><!--//item-->
 
                 <div class="row item ">
                     <div class="content col-md-4 col-sm-12 col-xs-12">
-                        <h3 class="title">Easy to customise</h3>
+                        <h3 class="title"><a href="coffee.html">Coffee Shops & Kiosks</a></h3>
                         <div class="desc">
                             <p>Explain one of your product benefits here. Let users know how they can benefit using your product. It’s also a good idea to back it up with a testimonial or tweet from your users.</p>
                             <p>The original PSD of the graphic is included in the package. You can easily customise the PSD to meet your needs.</p>
                         </div>
                         <div class="quote">
                             <div class="quote-profile">
-                                <img class="img-responsive img-circle" src="images/people/profile-s-3.png" alt="" />
+                                <img class="img-responsive img-circle" src="images/people/nelson.jpg" alt="" />
                             </div><!--//profile-->
                             <div class="quote-content">
-                                <blockquote><p>Nice template! It’s practical and there is no gimmicks. Very easy to customise as well!</p></blockquote>
-                                <p class="source"><a href="#">@AlexD</a>, London</p>
+                                <blockquote><p>We are so excited to be a Chombox Coffee franchise partner! We hope our coffee
+                                    shop can become a beacon of hope in our community.</p></blockquote>
+                                <p class="source">Nelson W., Nairobi</p>
                             </div><!--//quote-content-->
                         </div><!--//quote-->
                     </div><!--//content-->
                     <figure class="figure col-md-7 col-sm-12 col-xs-12 col-md-offset-1 col-sm-offset-0 col-xs-offset-0">
-                        <img class="img-responsive" src="images/figures/figure-3.png" alt="" />
-                        <figcaption class="figure-caption">(Screenshot: <a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-startups-tempo/?ref=3wm" target="_blank">Tempo - Bootstrap template for startups)</a> </figcaption>
-
+                        <img class="img-responsive" src="images/illustrations/coffeeshop.jpg" alt="" />
+                        <figcaption class="figure-caption">Chombox Coffee: <a href="coffee.html">Model 212</a> </figcaption>
                     </figure>
                 </div><!--//item-->
 
                 <div class="row item last-item">
                     <div class="content col-md-4 col-sm-12 col-xs-12 col-md-push-8 col-sm-push-0 col-xs-push-0">
-                        <h3 class="title">Connect your users</h3>
+                        <h3 class="title"><a href="live.html">Housing Solutions</a></h3>
                         <div class="desc">
                             <p>Explain one of your product benefits here. Let users know how they can benefit using your product. It’s also a good idea to back it up with a testimonial or tweet from your users.</p>
                             <p>The original PSD of the graphic is included in the package. You can easily customise the PSD to meet your needs.</p>
 
                         </div>
 
-                        <div class="quote">
-                            <div class="quote-profile">
-                                <img class="img-responsive img-circle" src="images/people/profile-s-4.png" alt="" />
-                            </div><!--//profile-->
-                            <div class="quote-content">
-                                <blockquote><p>I can connect to like-minded people lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p></blockquote>
-                                <p class="source">@JackT, San Francisco</p>
-                            </div><!--//quote-content-->
-                        </div><!--//quote-->
+                        <!--<div class="quote">-->
+                            <!--<div class="quote-profile">-->
+                                <!--<img class="img-responsive img-circle" src="images/people/profile-s-4.png" alt="" />-->
+                            <!--</div>-->
+                            <!--<div class="quote-content">-->
+                                <!--<blockquote><p>I can connect to like-minded people lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p></blockquote>-->
+                                <!--<p class="source">@JackT, San Francisco</p>-->
+                            <!--</div>-->
+                        <!--</div>-->
                     </div><!--//content-->
-                    <figure class="figure col-md-7 col-sm-12 col-xs-12 col-md-pull-4 col-sm-pull-0 col-xs-pull-0">
-                        <img class="img-responsive" src="images/figures/figure-4.png" alt="" />
+                    <figure class="figure housing col-md-7 col-sm-12 col-xs-12 col-md-pull-4 col-sm-pull-0 col-xs-pull-0">
+                        <div class="flexslider">
+                            <ul class="slides">
+                                <li>
+                                    <img src="images/illustrations/hotel_back.jpg" />
+                                </li>
+                                <li>
+                                    <img src="images/illustrations/hotel_lobby.jpg" />
+                                </li>
+                                <li>
+                                    <img src="images/illustrations/hotel_side.jpg" />
+                                </li>
+                                <li>
+                                    <img src="images/illustrations/hotel_patio.jpg" />
+                                </li>
+
+                            </ul>
+                        </div>
                     </figure>
                 </div><!--//item-->
-
-
-                <div class="feature-lead text-center">
-                    <h4 class="title">Want to discover all the features?</h4>
-                    <p><a class="btn btn-cta btn-cta-secondary" href="features.html">Take a Tour</a></p>
-                </div>
             </div><!--//container-->
         </section><!--//why-->
 
@@ -287,34 +320,205 @@
             </div><!--//container-->
         </section><!--//testimonials-->
 
-        <!-- ******Press Section****** -->
-        <section class="section press">
-            <div class="container text-center">
-                <h2 class="title">Press Coverage</h2>
-                <ul class="press-list list-inline row">
-                    <li class="col-md-2 col-sm-2 col-xs-4"><a href="#"><img class="img-responsive" src="images/press/press-1.png" alt="" /></a></li>
-                    <li class="col-md-2 col-sm-2 col-xs-4"><a href="#"><img class="img-responsive" src="images/press/press-2.png" alt="" /></a></li>
-                    <li class="col-md-2 col-sm-2 col-xs-4 xs-break"><a href="#"><img class="img-responsive" src="images/press/press-3.png" alt="" /></a></li>
-                    <li class="col-md-2 col-sm-2 col-xs-4"><a href="#"><img class="img-responsive" src="images/press/press-4.png" alt="" /></a></li>
-                    <li class="col-md-2 col-sm-2 col-xs-4"><a href="#"><img class="img-responsive" src="images/press/press-5.png" alt="" /></a></li>
-                    <li class="col-md-2 col-sm-2 col-xs-4"><a href="#"><img class="img-responsive" src="images/press/press-6.png" alt="" /></a></li>
-                </ul><!--//press-list-->
-                <ul class="press-list list-inline row last">
-                    <li class="col-md-2 col-sm-2 col-xs-4"><a href="#"><img class="img-responsive" src="images/press/press-7.png" alt="" /></a></li>
-                    <li class="col-md-2 col-sm-2 col-xs-4"><a href="#"><img class="img-responsive" src="images/press/press-8.png" alt="" /></a></li>
-                    <li class="col-md-2 col-sm-2 col-xs-4 xs-break"><a href="#"><img class="img-responsive" src="images/press/press-9.png" alt="" /></a></li>
-                    <li class="col-md-2 col-sm-2 col-xs-4"><a href="#"><img class="img-responsive" src="images/press/press-10.png" alt="" /></a></li>
-                    <li class="col-md-2 col-sm-2 col-xs-4"><a href="#"><img class="img-responsive" src="images/press/press-11.png" alt="" /></a></li>
-                    <li class="col-md-2 col-sm-2 col-xs-4"><a href="#"><img class="img-responsive" src="images/press/press-12.png" alt="" /></a></li>
-                </ul><!--//press-list-->
+        <!--<section id="work" class="section-padding wow animated fadeIn" data-wow-delay=".1s">-->
+        <section id="work" class="section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <div class="text-center">
+                            <h2 class="center-title">Active Social Good Projects</h2>
+                            <span class="center-border-line"></span>
+                            <p class="sub-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in piece of classical Latin literature from 45 BC, it a old.</p>
+                        </div>
+                    </div>
+                </div><!--center title row end-->
+            </div><!--container-->
+            <div class="container">
 
-                <div class="press-lead text-center">
-                     <h3 class="title">Have press inquires?</h3>
-                     <p class="press-links"><a href="#">Download our press kit</a> or <a href="contact.html">Get in touch</a></p>
+
+                <div id="filters-container" class="cbp-l-filters-dropdown">
+                    <div class="cbp-l-filters-dropdownWrap">
+                        <div class="cbp-l-filters-dropdownHeader">Sort Gallery</div>
+                        <div class="cbp-l-filters-dropdownList">
+                            <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">
+                                All (<div class="cbp-filter-counter"></div> items)
+                            </div>
+                            <div data-filter=".health" class="cbp-filter-item">
+                                Health (<div class="cbp-filter-counter"></div> items)
+                            </div>
+                            <div data-filter=".learn" class="cbp-filter-item">
+                                Learn (<div class="cbp-filter-counter"></div> items)
+                            </div>
+                            <div data-filter=".retail" class="cbp-filter-item">
+                                Commerce (<div class="cbp-filter-counter"></div> items)
+                            </div>
+                            <div data-filter=".housing" class="cbp-filter-item">
+                                Housing (<div class="cbp-filter-counter"></div> items)
+                            </div>
+                            <div data-filter=".partner" class="cbp-filter-item">
+                                Entrepreneurs (<div class="cbp-filter-counter"></div> items)
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-            </div><!--//container-->
-        </section><!--//press-->
+                <div id="grid-container" class="cbp">
+                    <div class="cbp-item learn">
+                        <a href="ajax/project1.html" class="cbp-caption cbp-singlePageInline"
+                           data-title="Sewing &amp; Textile Lab<br>Redeemed Gospel Church - Embakasi">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="images/projects/textile.jpg" alt="Sewing Lab">
+                            </div>
+                            <div class="cbp-caption-activeWrap">
+                                <div class="cbp-l-caption-alignLeft">
+                                    <div class="cbp-l-caption-body">
+                                        <div class="cbp-l-caption-title">Sewing &amp; Textile Lab</div>
+                                        <div class="cbp-l-caption-desc">Redeemed Gospel Church - Embakasi</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item learn">
+                        <a href="ajax/project2.html" class="cbp-caption cbp-singlePageInline"
+                           data-title="Computer Lab<br>Fair Oaks School - Nairobi">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="images/projects/complab.jpg" alt="">
+                            </div>
+                            <div class="cbp-caption-activeWrap">
+                                <div class="cbp-l-caption-alignLeft">
+                                    <div class="cbp-l-caption-body">
+                                        <div class="cbp-l-caption-title">Computer Lab</div>
+                                        <div class="cbp-l-caption-desc">Fair Oaks - Nairobi</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item health">
+                        <a href="ajax/project3.html" class="cbp-caption cbp-singlePageInline"
+                           data-title="Outpatient Primary Care<br>Humble Hearts - Embakasi">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="images/projects/hh_clinic2.jpg" alt="HH Clinic">
+                            </div>
+                            <div class="cbp-caption-activeWrap">
+                                <div class="cbp-l-caption-alignLeft">
+                                    <div class="cbp-l-caption-body">
+                                        <div class="cbp-l-caption-title">Outpatient Primary Care</div>
+                                        <div class="cbp-l-caption-desc">Humble Hearts - Embakasi</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item learn retail">
+                        <a href="ajax/project4.html" class="cbp-caption cbp-singlePageInline"
+                           data-title="Learning Lab<br>Fair Oaks College - Embakasi">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="images/work-6.jpg" alt="">
+                            </div>
+                            <div class="cbp-caption-activeWrap">
+                                <div class="cbp-l-caption-alignLeft">
+                                    <div class="cbp-l-caption-body">
+                                        <div class="cbp-l-caption-title">Learning Lab</div>
+                                        <div class="cbp-l-caption-desc">Fair Oaks College - Embakasi</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item health retail">
+                        <a href="ajax/project5.html" class="cbp-caption cbp-singlePageInline"
+                           data-title="Outpatient Primary Care<br>Zion Chemist - Embakasi">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="images/projects/zionclinic.jpg" alt="">
+                            </div>
+                            <div class="cbp-caption-activeWrap">
+                                <div class="cbp-l-caption-alignLeft">
+                                    <div class="cbp-l-caption-body">
+                                        <div class="cbp-l-caption-title">Outpatient Primary Care</div>
+                                        <div class="cbp-l-caption-desc">Zion Chemist - Embakasi</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="cbp-item retail">
+                        <a href="ajax/project6.html" class="cbp-caption cbp-singlePageInline"
+                           data-title="Water Franchise<br>Redeemed - Nairobi">
+                            <div class="cbp-caption-defaultWrap">
+                                <img src="images/projects/water.jpg" alt="Water">
+                            </div>
+                            <div class="cbp-caption-activeWrap">
+                                <div class="cbp-l-caption-alignLeft">
+                                    <div class="cbp-l-caption-body">
+                                        <div class="cbp-l-caption-title">Water Franchise</div>
+                                        <div class="cbp-l-caption-desc">Redeemed - Nairobi</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!--<div class="cbp-item web-design print">-->
+                        <!--<a href="assets/ajax/project7.html" class="cbp-caption cbp-singlePageInline"-->
+                           <!--data-title="Workout Buddy<br>by Tiberiu Neamu">-->
+                            <!--<div class="cbp-caption-defaultWrap">-->
+                                <!--<img src="images/work-3.jpg" alt="">-->
+                            <!--</div>-->
+                            <!--<div class="cbp-caption-activeWrap">-->
+                                <!--<div class="cbp-l-caption-alignLeft">-->
+                                    <!--<div class="cbp-l-caption-body">-->
+                                        <!--<div class="cbp-l-caption-title">Workout Buddy</div>-->
+                                        <!--<div class="cbp-l-caption-desc">by Tiberiu Neamu</div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</a>-->
+                    <!--</div>-->
+                    <!--<div class="cbp-item print">-->
+                        <!--<a href="assets/ajax/project8.html" class="cbp-caption cbp-singlePageInline"-->
+                           <!--data-title="Digital Menu<br>by Cosmin Capitanu">-->
+                            <!--<div class="cbp-caption-defaultWrap">-->
+                                <!--<img src="images/work-2.jpg" alt="">-->
+                            <!--</div>-->
+                            <!--<div class="cbp-caption-activeWrap">-->
+                                <!--<div class="cbp-l-caption-alignLeft">-->
+                                    <!--<div class="cbp-l-caption-body">-->
+                                        <!--<div class="cbp-l-caption-title">Digital Menu</div>-->
+                                        <!--<div class="cbp-l-caption-desc">by Cosmin Capitanu</div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</a>-->
+                    <!--</div>-->
+                    <!--<div class="cbp-item motion">-->
+                        <!--<a href="assets/ajax/project9.html" class="cbp-caption cbp-singlePageInline"-->
+                           <!--data-title="Holiday Selector<br>by Cosmin Capitanu">-->
+                            <!--<div class="cbp-caption-defaultWrap">-->
+                                <!--<img src="images/work-1.jpg" alt="">-->
+                            <!--</div>-->
+                            <!--<div class="cbp-caption-activeWrap">-->
+                                <!--<div class="cbp-l-caption-alignLeft">-->
+                                    <!--<div class="cbp-l-caption-body">-->
+                                        <!--<div class="cbp-l-caption-title">Holiday Selector</div>-->
+                                        <!--<div class="cbp-l-caption-desc">by Cosmin Capitanu</div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</a>-->
+                    <!--</div>-->
+                </div>
+
+                <!--<div id="loadMore-container" class="cbp-l-loadMore-button">-->
+                    <!--<a href="ajax/loadMore.html" class="cbp-l-loadMore-link">-->
+                        <!--<span class="cbp-l-loadMore-defaultText">LOAD MORE</span>-->
+                        <!--<span class="cbp-l-loadMore-loadingText">LOADING...</span>-->
+                        <!--<span class="cbp-l-loadMore-noMoreLoading">NO MORE WORKS</span>-->
+                    <!--</a>-->
+                <!--</div>-->
+
+            </div><!--container-->
+        </section><!--portfolio section end here-->
 
         <!-- ******CTA Section****** -->
         <section id="cta-section" class="section cta-section text-center home-cta-section">
@@ -432,12 +636,16 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 id="videoModalLabel" class="modal-title sr-only">Video Tour</h4>
                 </div>
                 <div class="modal-body">
-                    <div class="video-container">
-                        <iframe id="vimeo-video" src="//player.vimeo.com/video/28872840?color=ffffff&amp;wmode=transparent" width="720" height="405" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    </div><!--//video-container-->
+                    <!--<div class="video-container">-->
+                         <!--16:9 aspect ratio -->
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/RTJPOOf6Lmo" allowfullscreen></iframe>
+                        </div>
+
+                        <!--<iframe id="vimeo-video" src="//player.vimeo.com/video/28872840?color=ffffff&amp;wmode=transparent" width="720" height="405" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
+                    <!--</div>&lt;!&ndash;//video-container&ndash;&gt;-->
                 </div><!--//modal-body-->
             </div><!--//modal-content-->
         </div><!--//modal-dialog-->
@@ -454,13 +662,12 @@
     <script type="text/javascript" src="plugins/flexslider/jquery.flexslider-min.js"></script>
     <script type="text/javascript" src="js/jquery.sticky.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/smooth-scroll.min.js"></script>
     <script type="text/javascript" src="js/morphext.min.js"></script>
+    <script src="css/cubeportfolio/js/jquery.cubeportfolio.min.js" type="text/javascript"></script>
+    <script src="js/cube-portfolio.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
-    
-    <!-- Vimeo video API -->
-    <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
-    <script type="text/javascript" src="js/vimeo.js"></script>
-    
             
 </body>
 </html> 

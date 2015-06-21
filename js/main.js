@@ -109,8 +109,47 @@ $(document).ready(function() {
         controlNav: false, //remove the default control-nav
         slideshowSpeed: 8000
     });
-	
-	/* ======= Stop Video Playing When Close the Modal Window ====== */
+
+    $('.clinics').flexslider({
+       directionNav: false,
+       // controlNav: false,
+        slideshowSpeed: 8000
+    });
+
+    $('.learning').flexslider({
+        directionNav: false,
+        // controlNav: false,
+        slideshowSpeed: 8000
+    });
+
+    $('.housing').flexslider({
+        directionNav: false,
+        // controlNav: false,
+        slideshowSpeed: 8000
+    });
+
+
+    //wow js
+    jQuery(document).ready(function () {
+        wow = new WOW(
+            {
+                animateClass: 'animated',
+                offset: 100,
+                mobile: true
+            }
+        );
+        wow.init();
+    });
+
+    /* ======= Smooth Scrolling ====== */
+    smoothScroll.init({
+        speed: 2000, // Integer. How fast to complete the scroll in milliseconds
+        easing: 'easeInOutCubic', // Easing pattern to use
+        updateURL: false, // Boolean. Whether or not to update the URL with the anchor hash on scroll
+        offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+    });
+
+    /* ======= Stop Video Playing When Close the Modal Window ====== */
     $("#modal-video .close").on("click", function() {
         $("#modal-video iframe").attr("src", $("#modal-video iframe").attr("src"));        
     });
