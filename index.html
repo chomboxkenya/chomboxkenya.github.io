@@ -13,9 +13,9 @@
     <!-- viewport settings -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100' rel='stylesheet' type='text/css'>
+    <!--<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>-->
+    <!--<link href='http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300' rel='stylesheet' type='text/css'>-->
+    <!--<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100' rel='stylesheet' type='text/css'>-->
     <!-- Global CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <!-- Plugins CSS -->
@@ -41,8 +41,7 @@
 
 </head> 
 
-<body class="home-page">
-
+<body class="home-page" id="page-top">
     <!-- Begin Intro Section -->
     <section id="intro">
         <div class="intro-body text-center">
@@ -51,7 +50,6 @@
                     <div class="col-md-12 intro-content">
                         <div class="logo">
                             <h1>CHOMBOX</h1>
-                        <!-- //.logo -->
                         </div>
                         <div class="intro-text text-center">
                             <h2>Accelerate
@@ -62,31 +60,15 @@
                             <p class="lead">Equip Africa's emerging entrepreneurs to launch and manage sustainable businesses
                                 within their communities. Transform containers into opportunities for empowerment.</p>
                         </div>
-                        <!-- //.intro-text -->
-
-
                         <div>
                             <a data-scroll href="#work" class="btn btn-cta btn-cta-lg btn-cta-primary text-uppercase">
                                 <span class="glyphicon glyphicon-search" aria-hidden="true" style="vertical-align:text-top"></span>
                                 Explore Projects To Impact!</a>
                         </div>
-                        <!-- //.page-scroll -->
                     </div>
-                    <!-- //.intro-content -->
                 </div>
-                <!-- //.row -->
             </div>
-            <!-- //.container -->
         </div>
-        <!-- //.intro-body -->
-
-
-        <!--<div class="container">-->
-            <!--<div class="arrow bounce">-->
-
-            <!--</div>-->
-        <!--</div>-->
-
     </section>
     <!-- //End Intro Section -->
 
@@ -101,7 +83,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#page-top"></a>
+                <a data-scroll class="navbar-brand" href="#page-top"></a>
             </div>
             <!-- //.navbar-header -->
 
@@ -109,10 +91,10 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li class="nav-item"><a data-scroll href="#why">Solutions</a></li>
                     <li class="nav-item"><a data-scroll href="#work">Projects</a></li>
-                    <li class="nav-item"><a href="learn.html">Why Containers?</a></li>
+                    <!--<li class="nav-item"><a href="learn.html">Why Containers?</a></li>-->
                     <!--<li class="nav-item"><a href="invest.html">About Us</a></li>-->
 
-                    <li class="nav-item nav-item-cta last"><a class="nav-btn-cta" href="signup.html">Donate Now</a></li>
+                    <li class="nav-item nav-item-cta last"><a class="nav-btn-cta" href="https://chombox.tilt.com" target="_blank">Donate Now</a></li>
                 </ul><!--//nav-->
             </div><!--//navabr-collapse-->
         </div>
@@ -238,20 +220,15 @@
                     <div class="content col-md-4 col-sm-12 col-xs-12 col-md-push-8 col-sm-push-0 col-xs-push-0">
                         <h3 class="title"><a href="live.html">Housing Solutions</a></h3>
                         <div class="desc">
-                            <p>Explain one of your product benefits here. Let users know how they can benefit using your product. It’s also a good idea to back it up with a testimonial or tweet from your users.</p>
-                            <p>The original PSD of the graphic is included in the package. You can easily customise the PSD to meet your needs.</p>
-
+                            <p>Chombox Housing solutions provide affordable short and long-term accommodations for hotels,
+                                student housing and multi-family living needs. Our facilities provide can be custom-designed
+                                to match branding requirements and easily include meeting rooms, restaurant dining, social
+                                areas, coffee shops and lounges and recreational space. Rooms include single and multiple
+                                bed configurations, full bath, balcony &amp; kitchenette.</p>
+                            <p>Chombox Housing solutions can be semi-permanent and even relocated from location to location
+                                based upon demand and seasons. Infrastructure options include off-grid capabilities for water,
+                                electricity and waste.</p>
                         </div>
-
-                        <!--<div class="quote">-->
-                            <!--<div class="quote-profile">-->
-                                <!--<img class="img-responsive img-circle" src="images/people/profile-s-4.png" alt="" />-->
-                            <!--</div>-->
-                            <!--<div class="quote-content">-->
-                                <!--<blockquote><p>I can connect to like-minded people lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p></blockquote>-->
-                                <!--<p class="source">@JackT, San Francisco</p>-->
-                            <!--</div>-->
-                        <!--</div>-->
                     </div><!--//content-->
                     <figure class="figure housing col-md-7 col-sm-12 col-xs-12 col-md-pull-4 col-sm-pull-0 col-xs-pull-0">
                         <div class="flexslider">
@@ -268,7 +245,6 @@
                                 <li>
                                     <img src="images/illustrations/hotel_patio.jpg" />
                                 </li>
-
                             </ul>
                         </div>
                     </figure>
@@ -334,6 +310,8 @@
                             <p class="sub-text">Explore our projects and get to know the faith-motivated entrepreneurs who are launching and
                             managing Chombox businesses around the globe. Engage and support projects that align with your personal
                             passions and get involved in accelerating social impact in our world. </p>
+                            <a href="http://chombox.tilt.com" class="btn btn-cta btn-cta-lg btn-cta-primary text-uppercase" target="_blank">
+                                Back a Chombox Project</a>
                         </div>
                     </div>
                 </div><!--center title row end-->
@@ -420,7 +398,7 @@
                         <a href="ajax/project4.html" class="cbp-caption cbp-singlePageInline"
                            data-title="Learning Lab<br>Fair Oaks College - Embakasi">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="images/work-6.jpg" alt="">
+                                <img src="images/projects/insidelab500.jpg" alt="Learning Lab">
                             </div>
                             <div class="cbp-caption-activeWrap">
                                 <div class="cbp-l-caption-alignLeft">
@@ -546,41 +524,44 @@
                             <h3 class="title">About us</h3>
                             <ul class="list-unstyled">
                                 <li><a href="#"><i class="fa fa-caret-right"></i>Who we are</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Press</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Blog</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Jobs</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Contact us</a></li>
+                                <!--<li><a href="#"><i class="fa fa-caret-right"></i>Press</a></li>-->
+                                <li><a target="_blank" href="http://blog.chombox.com"><i class="fa fa-caret-right"></i>Blog</a></li>
+                                <!--<li><a href="#"><i class="fa fa-caret-right"></i>Jobs</a></li>-->
+                                <li><a href="contact.html"><i class="fa fa-caret-right"></i>Contact us</a></li>
                             </ul>
                         </div><!--//footer-col-inner-->
                     </div><!--//foooter-col-->
                     <div class="footer-col links col-md-2 col-sm-4 col-xs-12">
                         <div class="footer-col-inner">
-                            <h3 class="title">Product</h3>
-                            <ul class="list-unstyled">
-                                <li><a href="#"><i class="fa fa-caret-right"></i>How it works</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>API</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Download Apps</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Pricing</a></li>
-                            </ul>
+                            <!--<h3 class="title">Product</h3>-->
+                            <!--<ul class="list-unstyled">-->
+                                <!--<li><a href="#"><i class="fa fa-caret-right"></i>How it works</a></li>-->
+                                <!--<li><a href="#"><i class="fa fa-caret-right"></i>API</a></li>-->
+                                <!--<li><a href="#"><i class="fa fa-caret-right"></i>Download Apps</a></li>-->
+                                <!--<li><a href="#"><i class="fa fa-caret-right"></i>Pricing</a></li>-->
+                            <!--</ul>-->
                         </div><!--//footer-col-inner-->
                     </div><!--//foooter-col-->
                     <div class="footer-col links col-md-2 col-sm-4 col-xs-12 sm-break">
                         <div class="footer-col-inner">
-                            <h3 class="title">Support</h3>
-                            <ul class="list-unstyled">
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Help</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Documentation</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Terms of services</a></li>
-                                <li><a href="#"><i class="fa fa-caret-right"></i>Privacy</a></li>
-                            </ul>
+                            <h3 class="title">Contact</h3>
+                            <p class="adr clearfix">
+                                <i class="fa fa-map-marker pull-left"></i>
+                                <span class="adr-group pull-left">
+                                    <span class="street-address">Chombox Inc</span><br>
+                                    <span class="region">Littleton, CO</span><br>
+                                    <span class="country-name">USA</span>
+                                </span>
+                            </p>
+                            <p class="tel"><i class="fa fa-phone"></i>+1 720 883 1495</p>
+                            <p class="email"><i class="fa fa-envelope-o"></i><a href="mailto:info@chombox.com">info@chombox.com</a></p>
                         </div><!--//footer-col-inner-->
                     </div><!--//foooter-col-->
                     <div class="footer-col connect col-md-6 col-sm-12 col-xs-12">
                         <div class="footer-col-inner">
                             <ul class="social list-inline">
-                                <li><a href="https://twitter.com/3rdwave_themes" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="https://twitter.com/chomboxbuild" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://plus.google.com/b/112919632798177503047/112919632798177503047/posts"><i class="fa fa-google-plus"></i></a></li>
                                 <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                                 <li class="row-end"><a href="#"><i class="fa fa-rss"></i></a></li>
                             </ul>
@@ -597,34 +578,22 @@
                     </div><!--//foooter-col-->
                     <div class="clearfix"></div>
                 </div><!--//row-->
-                <div class="row has-divider">
-                    <!--<div class="footer-col download col-md-6 col-sm-12 col-xs-12">
-                        <div class="footer-col-inner">
-                            <h3 class="title">Mobile apps</h3>
-                            <ul class="list-unstyled download-list">
-                                <li><a class="btn btn-ghost" href="#"><i class="fa fa-apple"></i><span class="text">Download for iOS</span> </a></li>
-                                <li><a class="btn btn-ghost" href="#"><i class="fa fa-android"></i><span class="text">Download for Android</span></a></li>
-                                <li><a class="btn btn-ghost" href="#"><i class="fa fa-windows"></i><span class="text">Windows coming soon...</span></a></li>
-                            </ul>
-                        </div><!--//footer-col-inner-->
-                    <!--</div><!--//download-->
-                    <div class="footer-col contact col-md-6 col-sm-12 col-xs-12">
-                        <div class="footer-col-inner">
-                            <h3 class="title">Contact us</h3>
-                            <p class="adr clearfix">
-                                <i class="fa fa-map-marker pull-left"></i>
-                                <span class="adr-group pull-left">
-                                    <span class="street-address">Chombox Inc</span><br>
-                                    <span class="region">Littleton, CO</span><br>
-                                    <span class="country-name">USA</span>
-                                </span>
-                            </p>
-                            <p class="tel"><i class="fa fa-phone"></i>+1 720 883 1495</p>
-                            <p class="email"><i class="fa fa-envelope-o"></i><a href="#">info@chombox.com</a></p>
-                            <!--<a href="https://twitter.com/3rdwave_themes" class="twitter-follow-button" data-show-count="false">Follow @3rdwave_themes</a>-->
-<!--<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>                        -->
-                        </div><!--//footer-col-inner-->
-                    </div><!--//contact-->
+                <!--<div class="row has-divider">-->
+                    <!--<div class="footer-col contact col-md-6 col-sm-12 col-xs-12">-->
+                        <!--<div class="footer-col-inner">-->
+                            <!--<h3 class="title">Contact us</h3>-->
+                            <!--<p class="adr clearfix">-->
+                                <!--<i class="fa fa-map-marker pull-left"></i>-->
+                                <!--<span class="adr-group pull-left">-->
+                                    <!--<span class="street-address">Chombox Inc</span><br>-->
+                                    <!--<span class="region">Littleton, CO</span><br>-->
+                                    <!--<span class="country-name">USA</span>-->
+                                <!--</span>-->
+                            <!--</p>-->
+                            <!--<p class="tel"><i class="fa fa-phone"></i>+1 720 883 1495</p>-->
+                            <!--<p class="email"><i class="fa fa-envelope-o"></i><a href="mailto:info@chombox.com">info@chombox.com</a></p>-->
+                        <!--</div>-->
+                    <!--</div>-->
                 </div>
             </div><!--//container-->
         </div><!--//footer-content-->
@@ -663,7 +632,7 @@
     <script type="text/javascript" src="plugins/bootstrap-hover-dropdown.min.js"></script>
     <script type="text/javascript" src="plugins/back-to-top.js"></script>
     <script type="text/javascript" src="plugins/jquery-placeholder/jquery.placeholder.js"></script>
-    <script type="text/javascript" src="plugins/FitVids/jquery.fitvids.js"></script>
+    <!--<script type="text/javascript" src="plugins/FitVids/jquery.fitvids.js"></script>-->
     <script type="text/javascript" src="plugins/flexslider/jquery.flexslider-min.js"></script>
     <script type="text/javascript" src="js/jquery.sticky.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
@@ -671,9 +640,21 @@
     <script type="text/javascript" src="js/morphext.min.js"></script>
     <script src="css/cubeportfolio/js/jquery.cubeportfolio.min.js" type="text/javascript"></script>
     <script src="js/cube-portfolio.js" type="text/javascript"></script>
-    <script type="text/javascript" src="js/wow.min.js"></script>
+    <!--<script type="text/javascript" src="js/wow.min.js"></script>-->
     <script type="text/javascript" src="js/main.js"></script>
-            
+    <!-- GOOGLE ANALYTICS -->
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-50508124-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
 </body>
 </html> 
 

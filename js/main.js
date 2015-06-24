@@ -5,20 +5,20 @@ $(document).ready(function() {
      /*---------------------------------------*/
     $('.navbar.navbar-fixed-top').sticky({topSpacing: 0});
 
-    var stickySideMenu = function(){
-        var navbar = $('.navbar.navbar-fixed-top.side-menu');
-
-        if ($(window).width() >= 992) {
-            navbar.unstick();
-        }
-        else
-        {
-            navbar.unstick();
-            navbar.sticky({topSpacing: 0});
-        }
-    };
-
-    stickySideMenu();
+    //var stickySideMenu = function(){
+    //    var navbar = $('.navbar.navbar-fixed-top.side-menu');
+    //
+    //    if ($(window).width() >= 992) {
+    //        navbar.unstick();
+    //    }
+    //    else
+    //    {
+    //        navbar.unstick();
+    //        navbar.sticky({topSpacing: 0});
+    //    }
+    //};
+    //
+    //stickySideMenu();
 
 
     $("#js-rotating").Morphext({
@@ -66,26 +66,26 @@ $(document).ready(function() {
     $('[data-hover="dropdown"]').dropdownHover();
     
     /* ======= Fixed header when scrolled ======= */    
-    $(window).bind('scroll', function() {
-         
-         if ($(window).scrollTop() > 0) {
-             $('#header').addClass('scrolled');
-         }
-         else {
-             $('#header').removeClass('scrolled');
-             
-         }
-    });
+    //$(window).bind('scroll', function() {
+    //
+    //     if ($(window).scrollTop() > 0) {
+    //         $('#header').addClass('scrolled');
+    //     }
+    //     else {
+    //         $('#header').removeClass('scrolled');
+    //
+    //     }
+    //});
     
     /* ======= jQuery Placeholder ======= */
     /* Ref: https://github.com/mathiasbynens/jquery-placeholder */
     
-    $('input, textarea').placeholder();    
+    //$('input, textarea').placeholder();
     
     /* ======= jQuery FitVids - Responsive Video ======= */
     /* Ref: https://github.com/davatron5000/FitVids.js/blob/master/README.md */
     
-    $(".video-container").fitVids();
+    //$(".video-container").fitVids();
     
     /* ======= FAQ accordion ======= */
     function toggleIcon(e) {
@@ -103,12 +103,12 @@ $(document).ready(function() {
     /* ======= Header Background Slideshow - Flexslider ======= */    
     /* Ref: https://github.com/woothemes/FlexSlider/wiki/FlexSlider-Properties */
     
-    $('.bg-slider').flexslider({
-        animation: "fade",
-        directionNav: false, //remove the default direction-nav - https://github.com/woothemes/FlexSlider/wiki/FlexSlider-Properties
-        controlNav: false, //remove the default control-nav
-        slideshowSpeed: 8000
-    });
+    //$('.bg-slider').flexslider({
+    //    animation: "fade",
+    //    directionNav: false, //remove the default direction-nav - https://github.com/woothemes/FlexSlider/wiki/FlexSlider-Properties
+    //    controlNav: false, //remove the default control-nav
+    //    slideshowSpeed: 8000
+    //});
 
     $('.clinics').flexslider({
        directionNav: false,
@@ -130,16 +130,16 @@ $(document).ready(function() {
 
 
     //wow js
-    jQuery(document).ready(function () {
-        wow = new WOW(
-            {
-                animateClass: 'animated',
-                offset: 100,
-                mobile: true
-            }
-        );
-        wow.init();
-    });
+    //jQuery(document).ready(function () {
+    //    wow = new WOW(
+    //        {
+    //            animateClass: 'animated',
+    //            offset: 100,
+    //            mobile: true
+    //        }
+    //    );
+    //    wow.init();
+    //});
 
     /* ======= Smooth Scrolling ====== */
     smoothScroll.init({
