@@ -2,11 +2,77 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27bf50a2-a916-42d7-9982-f0e5d0d95b59" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thankyou.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.html" afterPath="$PROJECT_DIR$/contact.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/Chombox_hori_w_small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/chombox_b100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/chombox_hori_w.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/chombox_word_b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/chombox_word_w_300.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/chombox_word_w_50.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/computer_lab2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/figures/figure-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/figures/figure-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/figures/figure-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/figures/figure-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/freighter2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/freighter_port_640_1136.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/freighter_port_736.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/freighter_portriat_320.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/freighter_portriat_640.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/freighter_portriat_768.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/freighterfront_1200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/freighterfront_1400.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/freighterfront_14002.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/freighterfront_14003.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/freightertop2_767.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/freightertop_600.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/freightertop_667.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/freightertop_668.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/freightertop_767.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/freightertop_768.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/freightertop_ipad.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/freightertop_ipad2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/freightertop_iphone.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/illustrations/computer_lab2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/illustrations/fairoaks2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/mobile/QR-code.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/mobile/iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/mobile/screenshot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/people/profile-m-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/people/profile-m-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/people/profile-m-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/people/profile-s-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/people/profile-s-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/people/profile-s-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/people/profile-s-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/press/press-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/press/press-10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/press/press-11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/press/press-12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/press/press-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/press/press-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/press/press-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/press/press-5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/press/press-6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/press/press-7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/press/press-8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/press/press-9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/projects/hh_clinic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/team/member-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/team/member-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/team/member-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/team/member-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/team/member-5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/team/member-6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/textile.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/work-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/work-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/work-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/work-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/work-5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/work-6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/work-7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/work-8.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="chomboxhealth.iws" />
@@ -28,23 +94,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.5882354">
-              <caret line="588" column="55" selection-start-line="588" selection-start-column="55" selection-end-line="588" selection-end-column="55" />
+            <state vertical-scroll-proportion="-1.2253164">
+              <caret line="455" column="66" selection-start-line="455" selection-start-column="66" selection-end-line="455" selection-end-column="66" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#a#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1435166269000" expanded="true" signature="27275:28249" placeholder="..." />
+                <marker date="1435167794000" expanded="true" signature="27363:28337" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38073394">
+            <state vertical-scroll-proportion="-10.375">
               <caret line="92" column="104" selection-start-line="92" selection-start-column="104" selection-end-line="92" selection-end-column="104" />
               <folding />
             </state>
@@ -161,8 +227,8 @@
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/thankyou.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/contact.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -304,13 +370,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="23" width="1440" height="801" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3286119" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -319,7 +386,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286119" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -431,11 +497,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/figures/figure-1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/background/bg-header-1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -447,16 +508,6 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/chombox_b100.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/chombox_hori_w.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/freightertop.jpg">
@@ -474,31 +525,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/chombox_word_w_50.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/chombox_word_w_300.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/freightertop2_767.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/freighter2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/computer_lab2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/background/bg-footer-2.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -509,22 +535,12 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/illustrations/computer_lab2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/features/screenshot-2.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/features/screenshot-1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/figures/figure-3.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -673,22 +689,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.5882354">
-          <caret line="588" column="55" selection-start-line="588" selection-start-column="55" selection-end-line="588" selection-end-column="55" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#a#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1435166269000" expanded="true" signature="27275:28249" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="-10.375">
+          <caret line="92" column="104" selection-start-line="92" selection-start-column="104" selection-end-line="92" selection-end-column="104" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38073394">
-          <caret line="92" column="104" selection-start-line="92" selection-start-column="104" selection-end-line="92" selection-end-column="104" />
-          <folding />
+        <state vertical-scroll-proportion="-1.2253164">
+          <caret line="455" column="66" selection-start-line="455" selection-start-column="66" selection-end-line="455" selection-end-column="66" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#a#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1435167794000" expanded="true" signature="27363:28337" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
