@@ -69,7 +69,9 @@
         <section class="contact-section section section-on-bg">
             <div class="container">
                 <h2 class="title text-center">Contact Us</h2>
-                <p class="intro text-center">We’d love to hear from you. Let us know your thoughts or how we can help.</p>
+                <p class="intro text-center">We’d love to hear from you. Let us know your thoughts or how we can help.
+                    If you are looking for ways to get involved with Chombox or on a Chombox project, please let us know
+                    your interests and passions.</p>
                 <form id="contact-form" class="contact-form" action="//formspree.io/info@chombox.com" method="post">
                     <div class="row text-center">
                         <div class="contact-form-inner col-md-8 col-sm-12 col-xs-12 col-md-offset-2 col-sm-offset-0 xs-offset-0">
@@ -87,9 +89,8 @@
                                     <label class="sr-only" for="message">Your message</label>
                                     <textarea class="form-control" name="body" id="message" placeholder="Enter your message" rows="6" required></textarea>
                                 </div>
-                                <input type="hidden" name="_next" value="//chombox.com"/>
-                                <input type="hidden" name="_subject" value="Contact from Website"/>
-                                <input type="hidden" name="_gotcha" style="display:none" />
+                                <input type="hidden" name="_next" value="//thankyou.html" />
+                                <input type="hidden" name="_subject" value="Contact Page from Website"/>
                                  <div class="col-md-12 col-sm-12 col-xs-12 form-group">
                                     <button id="submit" type="submit" name="submit" class="btn btn-block btn-cta btn-cta-primary">Send Message</button>
                                 </div>                           
@@ -191,16 +192,18 @@
                                 <li class="row-end"><a href="#"><i class="fa fa-rss"></i></a></li>
                             </ul>
                             <div class="form-container">
-                                <p class="intro">Stay up to date with the latest news and offers from Velocity</p>
-                                <form class="signup-form navbar-form">
+                                <p class="intro">Stay up to date with the latest news and project from Chombox</p>
+                                <form class="signup-form navbar-form" action="//formspree.io/newsletter@chombox.com" method="post">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Enter your email address">
+                                        <input type="email" class="form-control" name="_replyto" id="cemail" placeholder="Enter your email address">
                                     </div>
+                                    <input type="hidden" name="_subject" value="Newsletter Signup" />
+                                    <input type="hidden" name="_next" value="//thankyou.html" />
                                     <button type="submit" class="btn btn-cta btn-cta-primary">Subscribe Now</button>
                                 </form>
-                            </div><!--//subscription-form-->
-                        </div><!--//footer-col-inner-->
-                    </div><!--//foooter-col-->
+                            </div>
+                        </div>
+                    </div>
                     <div class="clearfix"></div>
                 </div><!--//row-->
                 <!--<div class="row has-divider">-->

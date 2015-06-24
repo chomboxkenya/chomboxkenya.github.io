@@ -807,7 +807,8 @@ select {
   font-size: 36px;
   font-weight: 300;
   margin-top: 0;
-  margin-bottom: 60px;
+  /*margin-bottom: 60px;*/
+  margin-bottom: 30px;
 }
 .cta-section .btn-cta {
   font-size: 20px;
